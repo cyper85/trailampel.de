@@ -1,0 +1,9 @@
+
+@import "variables";
+
+$navbar-dark-brand-color: $yellow;
+
+// Import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "global";

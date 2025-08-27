@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://trailampel.de/trails.schema.json",
+  "title": "City",
+  "description": "A City or Village",
+  "type": "object",
+  "patternProperties": {
+    "^[A-Z][a-z]+(-[A-Z][a-z]+)*$": {
+      "title": "City",
+      "description": "Name of the city",
+      "type": "object",
+      "patternProperties": {
+        "^[A-Z][a-z]+(-[A-Z][a-z]+)*$": {
+          "title": "Zone",
+          "description": "Name of the zone",
+          "type": "object",
+          "patternProperties": {
+            "^[A-Za-z0-9- ]+$": {
+              "title": "Trail",
+              "description": "Name of the trail",
+              "type": "object",
+              "properties": {
+                "status": {
+                  "description": "Status of the trail",
+                  "enum": [
+                    "ACTIVE",
+                    "WARNING",
+                    "INACTIVE",
+                    "DESTROYED",
+                    "NOT READY"
+                  ]
+                },
+                "alt_name":{
+                  "description": "Alternative name of the trail",
+                  "type": "string"
+                },
+                "ref":{
+                  "description": "reference of the trail",
+                  "type": "string"
+                },
+                "message": {
+                  "description": "Additional Message for Trail Status",
+                  "type": "string"
+                }
+              },
+              "required": ["status"]
+            }
+          }
+        }
+      }
+    }
+  }
+}

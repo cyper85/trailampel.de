@@ -1,0 +1,153 @@
+{
+  "Elgersburg": {
+    "Heidelberg": {
+      "Bratwurst": {
+        "status": "DESTROYED"
+      },
+      "Happy Hippo": {
+        "status": "ACTIVE"
+      },
+      "Huckland": {
+        "status": "DESTROYED"
+      },
+      "Huck Noris": {
+        "status": "DESTROYED"
+      },
+      "Kohlbachtrail": {
+        "status": "WARNING",
+        "message": "vorletzer Abschnitt auf Mikado wechseln, letzter Abschnitt komplett neu gelegt"
+      },
+      "Mikado": {
+        "status": "WARNING",
+        "message": "Zweiter Abschnitt aktuell nicht fahrbar"
+      }
+    },
+    "Rumpelsberg": {
+      "Emmastein DH": {
+        "status": "DESTROYED"
+      },
+      "Emmastein Wanderweg": {
+        "status": "ACTIVE"
+      },
+      "Rumpelsbergtrail": {
+        "status": "ACTIVE"
+      },
+      "Top of Rumpelsberg 2": {
+        "status": "WARNING",
+        "message": "Trail wegen Forstarbeiten am Steigereck teils nicht fahrbar"
+      }
+    }
+  },
+  "Gehren": {
+    "Langer Berg": {
+      "Long Mountain": {
+        "status": "ACTIVE"
+      }
+    }
+  },
+  "Geraberg": {
+    "Steintal": {
+      "Steep Valley": {
+        "status": "ACTIVE"
+      },
+      "Steintal 1": {
+        "alt_name": "Stone Valley",
+        "status": "WARNING",
+        "message": "letzte zwei Abschnitte nicht fahrbar"
+      },
+      "Steintal 2": {
+        "status": "INACTIVE"
+      },
+      "Steintal 3": {
+        "status": "NOT READY"
+      }
+    }
+  },
+  "Ilmenau": {
+    "Hangeberg": {
+      "Hedes Krake Ende": {
+        "status": "ACTIVE"
+      },
+      "Homies": {
+        "status": "ACTIVE"
+      },
+      "Krake": {
+        "status": "ACTIVE"
+      },
+      "ManeRiver": {
+        "status": "DESTROYED"
+      },
+      "Pumptrail": {
+        "status": "INACTIVE"
+      },
+      "Quarry Corner": {
+        "alt_name": "Kiwi",
+        "status": "ACTIVE"
+      },
+      "Roda DH": {
+        "status": "INACTIVE"
+      },
+      "Stony": {
+        "status": "DESTROYED"
+      },
+      "Tentakel": {
+        "status": "ACTIVE"
+      },
+      "The Real": {
+        "status": "ACTIVE"
+      },
+      "TK": {
+        "status": "ACTIVE"
+      },
+      "WarmUp zu den Homies": {
+        "status": "ACTIVE"
+      },
+      "Wilde Hilde": {
+        "status": "ACTIVE"
+      }
+    },
+    "Kickelhahn": {
+      "Meistertrail": {
+        "status": "WARNING",
+        "message": "Nur noch ab ca. der H\u00e4lfte fahrbar"
+      },
+      "Project One": {
+        "ref": "P1",
+        "status": "ACTIVE"
+      },
+      "Top of Ilmenau 1": {
+        "ref": "TOI1",
+        "status": "ACTIVE"
+      },
+      "Top of Ilmenau 2": {
+        "ref": "TOI2",
+        "status": "ACTIVE"
+      }
+    },
+    "Lindenberg": {
+      "Long Bob": {
+        "status": "DESTROYED"
+      },
+      "Rollercoaster": {
+        "status": "ACTIVE"
+      },
+      "Schortetrail": {
+        "status": "DESTROYED"
+      },
+      "Speedy Wonder": {
+        "status": "DESTROYED"
+      },
+      "Steepy Wonder": {
+        "status": "ACTIVE"
+      }
+    },
+    "Tragberg": {
+      "Tragbergtrail": {
+        "status": "ACTIVE"
+      },
+      "Wurzeltrail": {
+        "status": "ACTIVE"
+      }
+    }
+  }
+}

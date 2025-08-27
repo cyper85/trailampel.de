@@ -1,0 +1,185 @@
+//
+// Global
+//
+
+body {
+  //padding-top: $navbar-base-height;
+  color: $gray-600;
+}
+
+@include media-breakpoint-up(lg) {
+  body {
+    padding-top: 0;
+    padding-left: 0;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+}
+
+h1 {
+  line-height: 1;
+}
+
+p.lead {
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+
+.subheading {
+  font-family: $headings-font-family;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+//
+// Icons
+//
+
+// Styling for the rounded social media links
+
+.social-icons {
+  .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: $gray-700;
+    color: $white;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &:hover {
+      background-color: $primary;
+    }
+  }
+}
+
+// Styling for the development technology icons
+.dev-icons {
+  font-size: 3rem;
+}
+
+//
+// Sidenav
+//
+
+#sideNav {
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  .navbar-nav .nav-item .nav-link {
+    font-weight: 800;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+  }
+
+  .navbar-toggler {
+    &:focus {
+      outline-color: lighten($primary, 15%);
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  #sideNav {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+
+    width: $sidebar-base-width;
+    height: 100vh;
+
+    .navbar-brand {
+      display: flex;
+
+      margin: auto auto 0;
+      padding: 0.5rem;
+
+      .img-profile {
+        max-width: 10rem;
+        max-height: 10rem;
+        border: 0.5rem solid fade-out($white, 0.8);
+      }
+    }
+
+    .navbar-collapse {
+      display: flex;
+      align-items: flex-start;
+      flex-grow: 0;
+
+      width: 100%;
+      margin-bottom: auto;
+
+      .navbar-nav {
+        flex-direction: column;
+
+        width: 100%;
+
+        .nav-item {
+          display: block;
+
+          .nav-link {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}
+
+//
+// Sections
+//
+
+section.resume-section {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  max-width: 75rem;
+
+  .resume-section-content {
+    width: 100%;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  section.resume-section {
+    min-height: 100vh;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  section.resume-section {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+
+td.editor-button, th.editor-button {
+  max-width: 40px;
+}
