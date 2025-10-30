@@ -7,6 +7,10 @@
       "Happy Hippo": {
         "status": "ACTIVE"
       },
+      "Hohlweg": {
+        "status": "WARNING",
+        "message": "schlecht gepflegt aber grundsätzlich fahrbar. Ende dauerhaft zerstört."
+      },
       "Huckland": {
         "status": "DESTROYED"
       },
@@ -33,8 +37,7 @@
         "status": "ACTIVE"
       },
       "Top of Rumpelsberg 2": {
-        "status": "WARNING",
-        "message": "Trail wegen Forstarbeiten am Steigereck teils nicht fahrbar"
+        "status": "ACTIVE"
       }
     }
   },
@@ -127,8 +130,27 @@
       }
     },
     "Lindenberg": {
+      "Enduro Trail": {
+        "status": "ACTIVE"
+      },
+      "Flow Trail": {
+        "status": "ACTIVE"
+      },
+      "ILRC Downhillstrecke": {
+        "status": "ACTIVE"
+      },
+      "ILRC Linduro": {
+        "status": "ACTIVE"
+      },
+      "ILRC Trainingsstrecke": {
+        "status": "WARNING",
+        "message": "Letzter Abschnitt stark zugewachsen"
+      },
       "Long Bob": {
         "status": "DESTROYED"
+      },
+      "Play Line": {
+        "status": "ACTIVE"
       },
       "Rollercoaster": {
         "status": "ACTIVE"
