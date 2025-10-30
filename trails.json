@@ -42,15 +42,15 @@
     }
   },
   "Gehren": {
-    "Langer Berg": {
-      "Long Mountain": {
-        "status": "ACTIVE"
-      }
-    },
     "Hexenstein": {
       "Zick Zack Weg": {
         "status": "WARNING",
         "message": "Durch Forstarbeiten stark in Mitleidenschaft gezogen. Grundsätzlich fahrbar"
+      }
+    },
+    "Langer Berg": {
+      "Long Mountain": {
+        "status": "ACTIVE"
       }
     }
   },
