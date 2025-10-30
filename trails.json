@@ -46,6 +46,12 @@
       "Long Mountain": {
         "status": "ACTIVE"
       }
+    },
+    "Hexenstein": {
+      "Zick Zack Weg": {
+        "status": "WARNING",
+        "message": "Durch Forstarbeiten stark in Mitleidenschaft gezogen. Grundsätzlich fahrbar"
+      }
     }
   },
   "Geraberg": {
@@ -164,7 +170,9 @@
       "Steepy Wonder": {
         "status": "ACTIVE"
       }
-    },
+    }
+  },
+  "Langewiesen": {
     "Tragberg": {
       "Tragbergtrail": {
         "status": "ACTIVE"
