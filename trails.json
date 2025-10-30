@@ -14,12 +14,12 @@
         "status": "DESTROYED"
       },
       "Kohlbachtrail": {
-        "status": "WARNING",
-        "message": "vorletzer Abschnitt auf Mikado wechseln, letzter Abschnitt komplett neu gelegt"
+        "status": "ACTIVE",
+        "message": "letzter Abschnitt komplett neu gelegt"
       },
       "Mikado": {
-        "status": "WARNING",
-        "message": "Zweiter Abschnitt aktuell nicht fahrbar"
+        "status": "ACTIVE",
+        "message": ""
       }
     },
     "Rumpelsberg": {
@@ -48,15 +48,16 @@
   "Geraberg": {
     "Steintal": {
       "Steep Valley": {
-        "status": "ACTIVE"
+        "status": "WARNING",
+        "message": "erste zwei Abschnitte nicht fahrbar"
       },
       "Steintal 1": {
         "alt_name": "Stone Valley",
-        "status": "WARNING",
-        "message": "letzte zwei Abschnitte nicht fahrbar"
+        "status": "ACTIVE",
+        "message": "letzter Abschnitt neu gelegt (Sept. 2025)"
       },
       "Steintal 2": {
-        "status": "INACTIVE"
+        "status": "ACTIVE"
       },
       "Steintal 3": {
         "status": "NOT READY"
@@ -116,6 +117,7 @@
         "status": "ACTIVE"
       },
       "Top of Ilmenau 1": {
+        "alt_name": "Waldstraße DH",
         "ref": "TOI1",
         "status": "ACTIVE"
       },
