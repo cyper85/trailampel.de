@@ -34,7 +34,8 @@
         "status": "ACTIVE"
       },
       "Rumpelsbergtrail": {
-        "status": "ACTIVE"
+        "status": "WARNING",
+        "message": "Zweiter Abschnitt durch Forstarbeiten zerstört"
       },
       "Top of Rumpelsberg 2": {
         "status": "ACTIVE"
