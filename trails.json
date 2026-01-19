@@ -22,8 +22,8 @@
         "message": "letzter Abschnitt komplett neu gelegt"
       },
       "Mikado": {
-        "status": "ACTIVE",
-        "message": ""
+        "status": "WARNING",
+        "message": "Im mittleren Abschnitt liegt ein Sturmschaden, der auf Grund eines weiteren Sturmschadens derzeit nicht weggeräumt werden kann. Bitte weiträumig umlaufen, nicht drüber steigen!"
       }
     },
     "Rumpelsberg": {
@@ -67,7 +67,8 @@
         "message": "letzter Abschnitt neu gelegt (Sept. 2025)"
       },
       "Steintal 2": {
-        "status": "ACTIVE"
+        "status": "WARNING",
+        "message": "Teile des Trails sind durch Forstarbeiten zerstört"
       },
       "Steintal 3": {
         "status": "NOT READY"
