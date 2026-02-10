@@ -182,7 +182,8 @@
         "status": "ACTIVE"
       },
       "Wurzeltrail": {
-        "status": "ACTIVE"
+        "status": "WARNING",
+        "message": "Zum Teil stark zugewachsen."
       }
     }
   }
