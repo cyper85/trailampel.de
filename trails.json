@@ -135,8 +135,8 @@
       },
       "Top of Ilmenau 2": {
         "ref": "TOI2",
-        "status": "WARNING",
-        "message": "Erster Abschnitt durch Forstarbeiten schwer fahrbar, Mittlerer Abschnitt durch Forstarbeiten unpassierbar"
+        "status": "INACTIVE",
+        "message": "Aktuell sind mehrere Abschnitte durch Forstarbeiten nicht fahrbar."
       }
     },
     "Lindenberg": {
