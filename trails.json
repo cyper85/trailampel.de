@@ -22,8 +22,8 @@
         "message": "letzter Abschnitt komplett neu gelegt"
       },
       "Mikado": {
-        "status": "WARNING",
-        "message": "Im mittleren Abschnitt liegt ein Sturmschaden, der auf Grund eines weiteren Sturmschadens derzeit nicht weggeräumt werden kann. Bitte weiträumig umlaufen, nicht drüber steigen!"
+        "status": "ACTIVE",
+        "message": "Im mittleren Abschnitt liegt ein Sturmschaden, der über eine Interimsumfahrung rechts umfahren werden kann."
       }
     },
     "Rumpelsberg": {
