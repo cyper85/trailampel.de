@@ -24,6 +24,10 @@
       "Mikado": {
         "status": "ACTIVE",
         "message": "Im mittleren Abschnitt liegt ein Sturmschaden, der über eine Interimsumfahrung rechts umfahren werden kann."
+      },
+      "Rollstuhlweg-Trail": {
+        "status": "ACTIVE",
+        "message": "Neu seit 2025. Erbauer unbekannt -> Name nur Platzhalter bis richtiger Name bekannt"
       }
     },
     "Rumpelsberg": {
@@ -59,7 +63,7 @@
     "Steintal": {
       "Steep Valley": {
         "status": "WARNING",
-        "message": "erste zwei Abschnitte nicht fahrbar"
+        "message": "erster Abschnitt nicht fahrbar"
       },
       "Steintal 1": {
         "alt_name": "Stone Valley",
@@ -67,8 +71,8 @@
         "message": "letzter Abschnitt neu gelegt (Sept. 2025)"
       },
       "Steintal 2": {
-        "status": "WARNING",
-        "message": "Teile des Trails sind durch Forstarbeiten zerstört"
+        "status": "ACTIVE",
+        "message": "Seit 2026 neue Linienführung, inklusive Ende-Erweiterung"
       },
       "Steintal 3": {
         "status": "NOT READY"
@@ -77,6 +81,10 @@
   },
   "Ilmenau": {
     "Hangeberg": {
+      "Charlies Downhill": {
+        "status": "ACTIVE",
+        "message": "Neu seit 2026. Erbauer unbekannt -> Name nur Platzhalter bis richtiger Name bekannt"
+      },
       "Hedes Krake Ende": {
         "status": "ACTIVE"
       },
