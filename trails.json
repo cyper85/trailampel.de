@@ -133,7 +133,8 @@
       },
       "Project One": {
         "ref": "P1",
-        "status": "ACTIVE"
+        "status": "WARNING",
+        "message": "Erster Abschnitt durch Forstarbeiten nicht fahrbar"
       },
       "Top of Ilmenau 1": {
         "alt_name": "Waldstraße DH",
