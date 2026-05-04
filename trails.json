@@ -8,8 +8,8 @@
         "status": "ACTIVE"
       },
       "Hohlweg": {
-        "status": "WARNING",
-        "message": "schlecht gepflegt aber grundsätzlich fahrbar. Ende dauerhaft zerstört."
+        "status": "ACTIVE",
+        "message": "Ende seit 2024 bereits am neuen Hoch-Wasser-Behälter."
       },
       "Huckland": {
         "status": "DESTROYED"
@@ -19,7 +19,7 @@
       },
       "Kohlbachtrail": {
         "status": "ACTIVE",
-        "message": "letzter Abschnitt komplett neu gelegt"
+        "message": "Mittlerer Abschnitt, kurz vor Kreuzung Mikado, neu gelegt. Letzter Abschnitt komplett neu gelegt"
       },
       "Mikado": {
         "status": "ACTIVE",
@@ -162,8 +162,8 @@
         "status": "ACTIVE"
       },
       "ILRC Trainingsstrecke": {
-        "status": "WARNING",
-        "message": "Letzter Abschnitt stark zugewachsen"
+        "status": "ACTIVE",
+        "message": ""
       },
       "Long Bob": {
         "status": "DESTROYED"
