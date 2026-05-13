@@ -159,7 +159,8 @@
         "status": "ACTIVE"
       },
       "ILRC Linduro": {
-        "status": "ACTIVE"
+        "status": "ACTIVE",
+        "message": "Neue untere Ausfahrt seit Mai 2026"
       },
       "ILRC Trainingsstrecke": {
         "status": "ACTIVE",
