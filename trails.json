@@ -139,13 +139,13 @@
       "Top of Ilmenau 1": {
         "alt_name": "Waldstraße DH",
         "ref": "TOI1",
-        "status": "WARNING",
-        "message": "Erster Abschnitt durch Forstarbeiten schwer fahrbar"
+        "status": "INACTIVE",
+        "message": "Erster Abschnitt durch Forstarbeiten schwer fahrbar, ab der Hälfte durch Forstarbeiten nicht fahrbar."
       },
       "Top of Ilmenau 2": {
         "ref": "TOI2",
-        "status": "INACTIVE",
-        "message": "Aktuell sind mehrere Abschnitte durch Forstarbeiten nicht fahrbar."
+        "status": "WARNING",
+        "message": "Letzte zwei Abschnitte durch Forstarbeiten nicht fahrbar."
       }
     },
     "Lindenberg": {
