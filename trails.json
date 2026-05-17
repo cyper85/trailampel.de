@@ -38,8 +38,8 @@
         "status": "ACTIVE"
       },
       "Rumpelsbergtrail": {
-        "status": "WARNING",
-        "message": "Zweiter Abschnitt durch Forstarbeiten zerstört"
+        "status": "ACTIVE",
+        "message": "Wieder frei seit (Mai 2026)."
       },
       "Top of Rumpelsberg 2": {
         "status": "ACTIVE"
@@ -62,13 +62,13 @@
   "Geraberg": {
     "Steintal": {
       "Steep Valley": {
-        "status": "WARNING",
-        "message": "erster Abschnitt nicht fahrbar"
+        "status": "ACTIVE",
+        "message": "Wieder frei mit teilweise neuem zweiten Abschnitt (Mai 2026)"
       },
       "Steintal 1": {
         "alt_name": "Stone Valley",
-        "status": "ACTIVE",
-        "message": "letzter Abschnitt neu gelegt (Sept. 2025)"
+        "status": "WARNING",
+        "message": "Zweiter Abschnitt bis Wäldchen zerstört (Mai 2026). Letzter Abschnitt neu gelegt (Sept. 2025)"
       },
       "Steintal 2": {
         "status": "ACTIVE",
@@ -98,7 +98,7 @@
         "status": "DESTROYED"
       },
       "Pumptrail": {
-        "status": "INACTIVE"
+        "status": "ACTIVE"
       },
       "Quarry Corner": {
         "alt_name": "Kiwi",
@@ -145,7 +145,7 @@
       "Top of Ilmenau 2": {
         "ref": "TOI2",
         "status": "WARNING",
-        "message": "Letzte zwei Abschnitte durch Forstarbeiten nicht fahrbar."
+        "message": "Letzter Abschnitt durch Forstarbeiten nicht fahrbar."
       }
     },
     "Lindenberg": {
