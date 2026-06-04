@@ -144,8 +144,8 @@
       },
       "Top of Ilmenau 2": {
         "ref": "TOI2",
-        "status": "WARNING",
-        "message": "Letzter Abschnitt durch Forstarbeiten nicht fahrbar."
+        "status": "ACTIVE",
+        "message": "Freigeräumt und gemäht (Juni 2026)."
       }
     },
     "Lindenberg": {
