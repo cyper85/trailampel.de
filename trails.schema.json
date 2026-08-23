@@ -25,6 +25,7 @@
                   "enum": [
                     "ACTIVE",
                     "WARNING",
+                    "CLOSED",
                     "INACTIVE",
                     "DESTROYED",
                     "NOT READY"
@@ -41,6 +42,11 @@
                 "message": {
                   "description": "Additional Message for Trail Status",
                   "type": "string"
+                },
+                "last_checkup": {
+                  "description": "Last Modified Date",
+                  "type": "string",
+                  "pattern": "[0-9]{4}(-[0-9]{2}){1,2}"
                 }
               },
               "required": ["status"]

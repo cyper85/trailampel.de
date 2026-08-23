@@ -10,6 +10,24 @@ function readTextFile(file, callback) {
     rawFile.send(null);
 }
 
+function get_month(checkup_string) {
+    const regex = /^[0-9]{4}-([0-9]{2})(-[0-9]{2})?$/;
+    const found = checkup_string.match(regex)
+    const months = ['', 'Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember']
+    return months[parseInt(found[1])]
+}
+function get_year(checkup_string) {
+    const regex = /^([0-9]{4})(-[0-9]{2}){1,2}$/;
+    const found = checkup_string.match(regex)
+    return found[1]
+}
+function last_checkup(checkup_string) {
+    const span = document.createElement("span");
+    span.classList.add('last_checkup');
+    span.innerHTML = '(Letzter Check: ' + get_month(checkup_string) + ' ' + get_year(checkup_string) + ')';
+    return span.outerHTML;
+}
+
 //usage:
 readTextFile("trails.json", function(text){
     const data = JSON.parse(text);
@@ -64,7 +82,11 @@ readTextFile("trails.json", function(text){
             for(trail in data[city][zone]) {
                 const trail_td = document.createElement("td");
                 trail_td.classList.add("trail");
-                trail_td.innerHTML = trail;
+                if ('alt_name' in data[city][zone][trail]) {
+                    trail_td.innerHTML = trail + ' (' + data[city][zone][trail]['alt_name'] + ')';
+                } else {
+                    trail_td.innerHTML = trail;
+                }
                 current_tr.appendChild(trail_td);
                 const state_td = document.createElement("td");
                 current_tr.appendChild(state_td);
@@ -78,17 +100,25 @@ readTextFile("trails.json", function(text){
                     state_td.classList.add("bg-warning");
                     trail_td.classList.add("text-black");
                     state_td.classList.add("text-black");
+                } else if (data[city][zone][trail]['status'] === "CLOSED") {
+                    trail_td.classList.add("bg-danger");
+                    state_td.classList.add("bg-danger");
+                    state_td.innerHTML = "&#128691;&nbsp;";
                 } else if (data[city][zone][trail]['status'] === "DESTROYED") {
                     trail_td.classList.add("bg-danger");
                     state_td.classList.add("bg-danger");
-                    state_td.innerHTML = "&#9760;";
+                    state_td.innerHTML = "&#9760;&nbsp;";
                 } else {
                     trail_td.classList.add("bg-danger");
                     state_td.classList.add("bg-danger");
                 }
 
                 if (data[city][zone][trail]['message']) {
-                    state_td.innerHTML = data[city][zone][trail]['message'];
+                    state_td.innerHTML = state_td.innerHTML + data[city][zone][trail]['message'];
+                }
+
+                if (data[city][zone][trail]['last_checkup']) {
+                    state_td.innerHTML = state_td.innerHTML + last_checkup(data[city][zone][trail]['last_checkup']);
                 }
 
                 // Editor Button

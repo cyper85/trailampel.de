@@ -5,7 +5,9 @@
         "status": "DESTROYED"
       },
       "Happy Hippo": {
-        "status": "ACTIVE"
+        "status": "INACTIVE",
+        "message": "Oberer Abschnitt stark zugewachsen, Letzter Abschnitt: Bäume im Trail",
+        "last_checkup": "2026-08-23"
       },
       "Hohlweg": {
         "status": "ACTIVE",
@@ -18,12 +20,13 @@
         "status": "DESTROYED"
       },
       "Kohlbachtrail": {
-        "status": "ACTIVE",
-        "message": "Mittlerer Abschnitt, kurz vor Kreuzung Mikado, neu gelegt. Letzter Abschnitt komplett neu gelegt"
+        "status": "INACTIVE",
+        "message": "Oberer Abschnitt stark zugewachen, Unterer Abschnitt aktive Forstarbeiten",
+        "last_checkup": "2026-08-23"
       },
       "Mikado": {
-        "status": "ACTIVE",
-        "message": "Im mittleren Abschnitt liegt ein Sturmschaden, der über eine Interimsumfahrung rechts umfahren werden kann."
+        "status": "INACTIVE",
+        "message": "Im ersten und letzten Abschnitt ist der Forst drin. Im mittleren Abschnitt liegt ein Sturmschaden, der über eine Interimsumfahrung rechts umfahren werden kann."
       },
       "Rollstuhlweg-Trail": {
         "status": "ACTIVE",
@@ -35,14 +38,18 @@
         "status": "DESTROYED"
       },
       "Emmastein Wanderweg": {
-        "status": "ACTIVE"
+        "status": "ACTIVE",
+        "last_checkup": "2026-07"
       },
       "Rumpelsbergtrail": {
         "status": "ACTIVE",
-        "message": "Wieder frei seit (Mai 2026)."
+        "message": "Wieder frei seit (Mai 2026).",
+        "last_checkup": "2026-08"
       },
       "Top of Rumpelsberg 2": {
-        "status": "ACTIVE"
+        "status": "INACTIVE",
+        "message": "Erster Abschnitt: aktive Forstarbeiten, Ausfahrt letzter Abschnitt mit Holzpolter zu.",
+        "last_checkup": "2026-08"
       }
     }
   },
@@ -54,6 +61,16 @@
       }
     },
     "Langer Berg": {
+      "Baum an Baum": {
+        "status": "WARNING",
+        "message": "Teils stark zugewachsen und Einfahrten nicht erkennbar",
+        "last_checkup": "2026-06"
+      },
+      "Hinterm Günter Denkmal": {
+        "status": "WARNING",
+        "message": "Teils stark zugewachsen und Einfahrten nicht erkennbar",
+        "last_checkup": "2026-06"
+      },
       "Long Mountain": {
         "status": "ACTIVE"
       }
@@ -68,7 +85,8 @@
       "Steintal 1": {
         "alt_name": "Stone Valley",
         "status": "WARNING",
-        "message": "Zweiter Abschnitt bis Wäldchen zerstört (Mai 2026). Letzter Abschnitt neu gelegt (Sept. 2025)"
+        "message": "Zweiter Abschnitt bis Wäldchen zerstört (Mai 2026). Letzter Abschnitt neu gelegt (Sept. 2025)",
+        "last_checkup": "2026-07"
       },
       "Steintal 2": {
         "status": "ACTIVE",
@@ -127,20 +145,22 @@
       }
     },
     "Kickelhahn": {
-      "Meistertrail (Schräger Kicki)": {
-        "status": "WARNING",
-        "message": "Erster Abschnitt durch Forstarbeiten nicht fahrbar"
-      },
       "Project One": {
         "ref": "P1",
         "status": "ACTIVE",
-        "message": "Erster Abschnitt wurde freigeräumt (Juni 2026)"
+        "message": "Erster Abschnitt wurde freigeräumt (Juni 2026)",
+        "last_checkup": "2026-07"
+      },
+      "Schräger Kicki": {
+        "alt_name": "Meistertrail",
+        "status": "WARNING",
+        "message": "Erster Abschnitt durch Forstarbeiten nicht fahrbar"
       },
       "Top of Ilmenau 1": {
         "alt_name": "Waldstraße DH",
         "ref": "TOI1",
-        "status": "INACTIVE",
-        "message": "Erster Abschnitt durch Forstarbeiten schwer fahrbar, ab der Hälfte durch Forstarbeiten nicht fahrbar."
+        "status": "WARNING",
+        "message": "Erster Abschnitt durch Forstarbeiten schwer fahrbar."
       },
       "Top of Ilmenau 2": {
         "ref": "TOI2",
@@ -156,7 +176,9 @@
         "status": "ACTIVE"
       },
       "ILRC Downhillstrecke": {
-        "status": "ACTIVE"
+        "status": "CLOSED",
+        "message": "Geschlossen bis DownhillCup (28.08.2026)",
+        "last_checkup": "2026-06"
       },
       "ILRC Linduro": {
         "status": "ACTIVE",
@@ -173,7 +195,9 @@
         "status": "ACTIVE"
       },
       "Rollercoaster": {
-        "status": "ACTIVE"
+        "status": "WARNING",
+        "message": "Oben liegen mehrere Bäume im Trail. Letzte Einfahrt mit Schutt zugeschüttet (Achtung: Glasscherben im Schutt)",
+        "last_checkup": "2026-08-23"
       },
       "Schortetrail": {
         "status": "DESTROYED"
@@ -189,7 +213,9 @@
   "Langewiesen": {
     "Tragberg": {
       "Tragbergtrail": {
-        "status": "ACTIVE"
+        "status": "WARNING",
+        "message": "Zum Teil stark zugewachsen.",
+        "last_checkup": "2026-08"
       },
       "Wurzeltrail": {
         "status": "WARNING",
