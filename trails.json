@@ -72,7 +72,8 @@
         "last_checkup": "2026-06"
       },
       "Long Mountain": {
-        "status": "ACTIVE"
+        "status": "ACTIVE",
+        "last_checkup": "2026-07"
       }
     }
   },
