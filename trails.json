@@ -122,8 +122,8 @@
       "Quarry Corner": {
         "alt_name": "Kiwi",
         "status": "WARNING",
-        "message": "1. Abschnitt: Bäume in Trail gesägt, Abschnitt ab Steinbruch: zwei Sturmschäden auf Trail",
-        "last_checkup": "2026-08-23"
+        "message": "Abschnitt ab Steinbruch: zwei Sturmschäden auf Trail",
+        "last_checkup": "2026-08-26"
       },
       "Roda DH": {
         "status": "INACTIVE"
