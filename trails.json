@@ -80,18 +80,18 @@
   "Geraberg": {
     "Steintal": {
       "Steep Valley": {
-        "status": "ACTIVE",
-        "message": "Wieder frei mit teilweise neuem zweiten Abschnitt (Mai 2026)"
+        "status": "CLOSED",
+        "message": "September & Oktober bitte nicht befahren"
       },
       "Steintal 1": {
         "alt_name": "Stone Valley",
-        "status": "WARNING",
-        "message": "Zweiter Abschnitt bis Wäldchen zerstört (Mai 2026). Letzter Abschnitt neu gelegt (Sept. 2025)",
+        "status": "CLOSED",
+        "message": "September & Oktober bitte nicht befahren",
         "last_checkup": "2026-07"
       },
       "Steintal 2": {
-        "status": "ACTIVE",
-        "message": "Seit 2026 neue Linienführung, inklusive Ende-Erweiterung"
+        "status": "CLOSED",
+        "message": "September & Oktober bitte nicht befahren"
       },
       "Steintal 3": {
         "status": "NOT READY"
@@ -179,9 +179,9 @@
         "status": "ACTIVE"
       },
       "ILRC Downhillstrecke": {
-        "status": "CLOSED",
-        "message": "Geschlossen bis DownhillCup (28.08.2026)",
-        "last_checkup": "2026-06"
+        "status": "ACTIVE",
+        "message": "",
+        "last_checkup": "2026-09-02"
       },
       "ILRC Linduro": {
         "status": "ACTIVE",
