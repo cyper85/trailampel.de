@@ -39,7 +39,7 @@
       },
       "Emmastein Wanderweg": {
         "status": "ACTIVE",
-        "last_checkup": "2026-07"
+        "last_checkup": "2026-07-01"
       },
       "Rumpelsbergtrail": {
         "status": "WARNING",
@@ -49,7 +49,7 @@
       "Top of Rumpelsberg 2": {
         "status": "INACTIVE",
         "message": "Erster Abschnitt: aktive Forstarbeiten, Ausfahrt letzter Abschnitt mit Holzpolter zu.",
-        "last_checkup": "2026-08"
+        "last_checkup": "2026-08-01"
       }
     }
   },
@@ -64,16 +64,16 @@
       "Baum an Baum": {
         "status": "WARNING",
         "message": "Teils stark zugewachsen und Einfahrten nicht erkennbar",
-        "last_checkup": "2026-06"
+        "last_checkup": "2026-06-01"
       },
       "Hinterm Günter Denkmal": {
         "status": "WARNING",
         "message": "Teils stark zugewachsen und Einfahrten nicht erkennbar",
-        "last_checkup": "2026-06"
+        "last_checkup": "2026-06-01"
       },
       "Long Mountain": {
         "status": "ACTIVE",
-        "last_checkup": "2026-07"
+        "last_checkup": "2026-07-01"
       }
     }
   },
@@ -87,7 +87,7 @@
         "alt_name": "Stone Valley",
         "status": "CLOSED",
         "message": "September & Oktober bitte nicht befahren",
-        "last_checkup": "2026-07"
+        "last_checkup": "2026-07-01"
       },
       "Steintal 2": {
         "status": "CLOSED",
@@ -152,7 +152,7 @@
         "ref": "P1",
         "status": "ACTIVE",
         "message": "Erster Abschnitt wurde freigeräumt (Juni 2026)",
-        "last_checkup": "2026-07"
+        "last_checkup": "2026-07-01"
       },
       "Schräger Kicki": {
         "alt_name": "Meistertrail",
@@ -218,7 +218,7 @@
       "Tragbergtrail": {
         "status": "WARNING",
         "message": "Zum Teil stark zugewachsen.",
-        "last_checkup": "2026-08"
+        "last_checkup": "2026-08-01"
       },
       "Wurzeltrail": {
         "status": "WARNING",
