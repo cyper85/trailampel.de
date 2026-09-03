@@ -80,14 +80,14 @@
   "Geraberg": {
     "Steintal": {
       "Steep Valley": {
-        "status": "CLOSED",
-        "message": "September & Oktober bitte nicht befahren"
+        "status": "ACTIVE",
+        "message": "Wieder frei mit teilweise neuem zweiten Abschnitt (Mai 2026)"
       },
       "Steintal 1": {
         "alt_name": "Stone Valley",
-        "status": "CLOSED",
-        "message": "September & Oktober bitte nicht befahren",
-        "last_checkup": "2026-07-01"
+        "status": "WARNING",
+        "message": "Zweiter Abschnitt bis Wäldchen zerstört (Mai 2026). Letzter Abschnitt neu gelegt (Sept. 2025)",
+        "last_checkup": "2026-07"
       },
       "Steintal 2": {
         "status": "CLOSED",
