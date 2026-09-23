@@ -5,9 +5,9 @@
         "status": "DESTROYED"
       },
       "Happy Hippo": {
-        "status": "INACTIVE",
-        "message": "Oberer Abschnitt stark zugewachsen, Letzter Abschnitt: Bäume im Trail",
-        "last_checkup": "2026-08-23"
+        "status": "WARNING",
+        "message": "Letzter Abschnitt: Bäume im Trail",
+        "last_checkup": "2026-09-16"
       },
       "Hohlweg": {
         "status": "ACTIVE",
@@ -79,6 +79,11 @@
   },
   "Geraberg": {
     "Steintal": {
+      "Kaltwelle": {
+        "status": "NOT READY",
+        "message": "vorläufige Benennung -> Richtiger Name noch unbekannt",
+        "last_checkup": "2026-09-22"
+      },
       "Steep Valley": {
         "status": "ACTIVE",
         "message": "Wieder frei mit teilweise neuem zweiten Abschnitt (Mai 2026)"
@@ -162,13 +167,15 @@
       "Top of Ilmenau 1": {
         "alt_name": "Waldstraße DH",
         "ref": "TOI1",
-        "status": "WARNING",
-        "message": "Erster Abschnitt durch Forstarbeiten schwer fahrbar."
+        "status": "ACTIVE",
+        "message": "",
+        "last_checkup": "2026-09-09"
       },
       "Top of Ilmenau 2": {
         "ref": "TOI2",
         "status": "ACTIVE",
-        "message": "Freigeräumt und gemäht (Juni 2026)."
+        "message": "",
+        "last_checkup": "2026-09-01"
       }
     },
     "Lindenberg": {
