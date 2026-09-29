@@ -44,9 +44,9 @@
                 "last_checkup": "2026-07-01"
             },
             "Rumpelsbergtrail": {
-                "status": "WARNING",
-                "message": "Erste Abschnitte wegen Sturmsch\u00e4den komplett dicht",
-                "last_checkup": "2026-08-23"
+                "status": "ACTIVE",
+                "message": "",
+                "last_checkup": "2026-09-29"
             },
             "Top of Rumpelsberg 2": {
                 "status": "INACTIVE"
