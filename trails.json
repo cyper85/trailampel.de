@@ -27,8 +27,9 @@
                 "last_checkup": "2026-08-23"
             },
             "Mikado": {
-                "status": "INACTIVE",
-                "message": "Im ersten und letzten Abschnitt ist der Forst drin. Im mittleren Abschnitt liegt ein Sturmschaden, der \u00fcber eine Interimsumfahrung rechts umfahren werden kann."
+                "status": "ACTIVE",
+                "message": "",
+                "last_checkup": "2026-09-29"
             },
             "Rollstuhlweg-Trail": {
                 "status": "ACTIVE",
