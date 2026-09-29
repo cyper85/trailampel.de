@@ -49,7 +49,9 @@
                 "last_checkup": "2026-09-29"
             },
             "Top of Rumpelsberg 2": {
-                "status": "INACTIVE"
+                "status": "ACTIVE",
+                "message": "Erster Teil Forstarbeiten, zweiter Teil frei. Kann gem\u00e4ht werden.",
+                "last_checkup": ""
             }
         }
     },
