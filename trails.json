@@ -91,8 +91,8 @@
             "Steintal 1": {
                 "alt_name": "Stone Valley",
                 "status": "WARNING",
-                "message": "Zweiter Abschnitt bis W\u00e4ldchen zerst\u00f6rt (Mai 2026). Letzter Abschnitt neu gelegt (Sept. 2025)(Letzter Check: Juli 2026)",
-                "last_checkup": ""
+                "message": "Zweiter Abschnitt bis W\u00e4ldchen zerst\u00f6rt (Mai 2026). Letzter Abschnitt neu gelegt (Sept. 2025)",
+                "last_checkup": "2026-07-29"
             },
             "Steintal 2": {
                 "status": "CLOSED",
