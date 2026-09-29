@@ -47,9 +47,7 @@
                 "last_checkup": "2026-08-23"
             },
             "Top of Rumpelsberg 2": {
-                "status": "INACTIVE",
-                "message": "Erster Abschnitt: aktive Forstarbeiten, Ausfahrt letzter Abschnitt mit Holzpolter zu.",
-                "last_checkup": "2026-08-01"
+                "status": "INACTIVE"
             }
         }
     },
