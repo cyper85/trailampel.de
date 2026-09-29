@@ -5,9 +5,9 @@
                 "status": "DESTROYED"
             },
             "Happy Hippo": {
-                "status": "WARNING",
-                "message": "Letzter Abschnitt: B\u00e4ume im Trail",
-                "last_checkup": "2026-09-16"
+                "status": "ACTIVE",
+                "message": "",
+                "last_checkup": "2026-09-29"
             },
             "Hohlweg": {
                 "status": "ACTIVE",
