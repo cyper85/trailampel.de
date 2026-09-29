@@ -208,9 +208,9 @@
                 "status": "ACTIVE"
             },
             "Rollercoaster": {
-                "status": "WARNING",
-                "message": "Oben liegen mehrere B\u00e4ume im Trail. Letzte Einfahrt mit Schutt zugesch\u00fcttet (Achtung: Glasscherben im Schutt)",
-                "last_checkup": "2026-08-23"
+                "status": "ACTIVE",
+                "message": "",
+                "last_checkup": "2026-09-29"
             },
             "Schortetrail": {
                 "status": "DESTROYED"
