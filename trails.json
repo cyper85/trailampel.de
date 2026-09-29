@@ -1,236 +1,236 @@
 {
-  "Elgersburg": {
-    "Heidelberg": {
-      "Bratwurst": {
-        "status": "DESTROYED"
-      },
-      "Happy Hippo": {
-        "status": "WARNING",
-        "message": "Letzter Abschnitt: Bäume im Trail",
-        "last_checkup": "2026-09-16"
-      },
-      "Hohlweg": {
-        "status": "ACTIVE",
-        "message": "Ende seit 2024 bereits am neuen Hoch-Wasser-Behälter."
-      },
-      "Huckland": {
-        "status": "DESTROYED"
-      },
-      "Huck Noris": {
-        "status": "DESTROYED"
-      },
-      "Kohlbachtrail": {
-        "status": "INACTIVE",
-        "message": "Oberer Abschnitt stark zugewachen, Unterer Abschnitt aktive Forstarbeiten",
-        "last_checkup": "2026-08-23"
-      },
-      "Mikado": {
-        "status": "INACTIVE",
-        "message": "Im ersten und letzten Abschnitt ist der Forst drin. Im mittleren Abschnitt liegt ein Sturmschaden, der über eine Interimsumfahrung rechts umfahren werden kann."
-      },
-      "Rollstuhlweg-Trail": {
-        "status": "ACTIVE",
-        "message": "Neu seit 2025. Erbauer unbekannt -> Name nur Platzhalter bis richtiger Name bekannt"
-      }
+    "Elgersburg": {
+        "Heidelberg": {
+            "Bratwurst": {
+                "status": "DESTROYED"
+            },
+            "Happy Hippo": {
+                "status": "WARNING",
+                "message": "Letzter Abschnitt: B\u00e4ume im Trail",
+                "last_checkup": "2026-09-16"
+            },
+            "Hohlweg": {
+                "status": "ACTIVE",
+                "message": "Ende seit 2024 bereits am neuen Hoch-Wasser-Beh\u00e4lter."
+            },
+            "Huckland": {
+                "status": "WARNING"
+            },
+            "Huck Noris": {
+                "status": "DESTROYED"
+            },
+            "Kohlbachtrail": {
+                "status": "INACTIVE",
+                "message": "Oberer Abschnitt stark zugewachen, Unterer Abschnitt aktive Forstarbeiten",
+                "last_checkup": "2026-08-23"
+            },
+            "Mikado": {
+                "status": "INACTIVE",
+                "message": "Im ersten und letzten Abschnitt ist der Forst drin. Im mittleren Abschnitt liegt ein Sturmschaden, der \u00fcber eine Interimsumfahrung rechts umfahren werden kann."
+            },
+            "Rollstuhlweg-Trail": {
+                "status": "ACTIVE",
+                "message": "Neu seit 2025. Erbauer unbekannt -> Name nur Platzhalter bis richtiger Name bekannt"
+            }
+        },
+        "Rumpelsberg": {
+            "Emmastein DH": {
+                "status": "DESTROYED"
+            },
+            "Emmastein Wanderweg": {
+                "status": "ACTIVE",
+                "last_checkup": "2026-07-01"
+            },
+            "Rumpelsbergtrail": {
+                "status": "WARNING",
+                "message": "Erste Abschnitte wegen Sturmsch\u00e4den komplett dicht",
+                "last_checkup": "2026-08-23"
+            },
+            "Top of Rumpelsberg 2": {
+                "status": "INACTIVE",
+                "message": "Erster Abschnitt: aktive Forstarbeiten, Ausfahrt letzter Abschnitt mit Holzpolter zu.",
+                "last_checkup": "2026-08-01"
+            }
+        }
     },
-    "Rumpelsberg": {
-      "Emmastein DH": {
-        "status": "DESTROYED"
-      },
-      "Emmastein Wanderweg": {
-        "status": "ACTIVE",
-        "last_checkup": "2026-07-01"
-      },
-      "Rumpelsbergtrail": {
-        "status": "WARNING",
-        "message": "Erste Abschnitte wegen Sturmschäden komplett dicht",
-        "last_checkup": "2026-08-23"
-      },
-      "Top of Rumpelsberg 2": {
-        "status": "INACTIVE",
-        "message": "Erster Abschnitt: aktive Forstarbeiten, Ausfahrt letzter Abschnitt mit Holzpolter zu.",
-        "last_checkup": "2026-08-01"
-      }
-    }
-  },
-  "Gehren": {
-    "Hexenstein": {
-      "Zick Zack Weg": {
-        "status": "WARNING",
-        "message": "Durch Forstarbeiten stark in Mitleidenschaft gezogen. Grundsätzlich fahrbar"
-      }
+    "Gehren": {
+        "Hexenstein": {
+            "Zick Zack Weg": {
+                "status": "WARNING",
+                "message": "Durch Forstarbeiten stark in Mitleidenschaft gezogen. Grunds\u00e4tzlich fahrbar"
+            }
+        },
+        "Langer Berg": {
+            "Baum an Baum": {
+                "status": "WARNING",
+                "message": "Teils stark zugewachsen und Einfahrten nicht erkennbar",
+                "last_checkup": "2026-06-01"
+            },
+            "Hinterm G\u00fcnter Denkmal": {
+                "status": "WARNING",
+                "message": "Teils stark zugewachsen und Einfahrten nicht erkennbar",
+                "last_checkup": "2026-06-01"
+            },
+            "Long Mountain": {
+                "status": "ACTIVE",
+                "last_checkup": "2026-07-01"
+            }
+        }
     },
-    "Langer Berg": {
-      "Baum an Baum": {
-        "status": "WARNING",
-        "message": "Teils stark zugewachsen und Einfahrten nicht erkennbar",
-        "last_checkup": "2026-06-01"
-      },
-      "Hinterm Günter Denkmal": {
-        "status": "WARNING",
-        "message": "Teils stark zugewachsen und Einfahrten nicht erkennbar",
-        "last_checkup": "2026-06-01"
-      },
-      "Long Mountain": {
-        "status": "ACTIVE",
-        "last_checkup": "2026-07-01"
-      }
-    }
-  },
-  "Geraberg": {
-    "Steintal": {
-      "Kaltwelle": {
-        "status": "NOT READY",
-        "message": "vorläufige Benennung -> Richtiger Name noch unbekannt",
-        "last_checkup": "2026-09-22"
-      },
-      "Steep Valley": {
-        "status": "ACTIVE",
-        "message": "Wieder frei mit teilweise neuem zweiten Abschnitt (Mai 2026)"
-      },
-      "Steintal 1": {
-        "alt_name": "Stone Valley",
-        "status": "WARNING",
-        "message": "Zweiter Abschnitt bis Wäldchen zerstört (Mai 2026). Letzter Abschnitt neu gelegt (Sept. 2025)",
-        "last_checkup": "2026-07"
-      },
-      "Steintal 2": {
-        "status": "CLOSED",
-        "message": "September & Oktober bitte nicht befahren"
-      },
-      "Steintal 3": {
-        "status": "NOT READY"
-      }
-    }
-  },
-  "Ilmenau": {
-    "Hangeberg": {
-      "HangKid": {
-        "status": "ACTIVE",
-        "message": "Neu seit 2026"
-      },
-      "Hedes Krake Ende": {
-        "status": "ACTIVE"
-      },
-      "Homies": {
-        "status": "ACTIVE"
-      },
-      "Krake": {
-        "status": "ACTIVE"
-      },
-      "ManeRiver": {
-        "status": "DESTROYED"
-      },
-      "Pumptrail": {
-        "status": "ACTIVE"
-      },
-      "Quarry Corner": {
-        "alt_name": "Kiwi",
-        "status": "WARNING",
-        "message": "Abschnitt ab Steinbruch: zwei Sturmschäden auf Trail",
-        "last_checkup": "2026-08-26"
-      },
-      "Roda DH": {
-        "status": "INACTIVE"
-      },
-      "Stony": {
-        "status": "DESTROYED"
-      },
-      "Tentakel": {
-        "status": "ACTIVE"
-      },
-      "The Real": {
-        "status": "ACTIVE"
-      },
-      "TK": {
-        "status": "ACTIVE"
-      },
-      "WarmUp zu den Homies": {
-        "status": "ACTIVE"
-      },
-      "Wilde Hilde": {
-        "status": "ACTIVE"
-      }
+    "Geraberg": {
+        "Steintal": {
+            "Kaltwelle": {
+                "status": "NOT READY",
+                "message": "vorl\u00e4ufige Benennung -> Richtiger Name noch unbekannt",
+                "last_checkup": "2026-09-22"
+            },
+            "Steep Valley": {
+                "status": "ACTIVE",
+                "message": "Wieder frei mit teilweise neuem zweiten Abschnitt (Mai 2026)"
+            },
+            "Steintal 1": {
+                "alt_name": "Stone Valley",
+                "status": "WARNING",
+                "message": "Zweiter Abschnitt bis W\u00e4ldchen zerst\u00f6rt (Mai 2026). Letzter Abschnitt neu gelegt (Sept. 2025)",
+                "last_checkup": "2026-07"
+            },
+            "Steintal 2": {
+                "status": "CLOSED",
+                "message": "September & Oktober bitte nicht befahren"
+            },
+            "Steintal 3": {
+                "status": "NOT READY"
+            }
+        }
     },
-    "Kickelhahn": {
-      "Project One": {
-        "ref": "P1",
-        "status": "ACTIVE",
-        "message": "Erster Abschnitt wurde freigeräumt (Juni 2026)",
-        "last_checkup": "2026-07-01"
-      },
-      "Schräger Kicki": {
-        "alt_name": "Meistertrail",
-        "status": "WARNING",
-        "message": "Erster Abschnitt durch Forstarbeiten nicht fahrbar"
-      },
-      "Top of Ilmenau 1": {
-        "alt_name": "Waldstraße DH",
-        "ref": "TOI1",
-        "status": "ACTIVE",
-        "message": "",
-        "last_checkup": "2026-09-09"
-      },
-      "Top of Ilmenau 2": {
-        "ref": "TOI2",
-        "status": "ACTIVE",
-        "message": "",
-        "last_checkup": "2026-09-01"
-      }
+    "Ilmenau": {
+        "Hangeberg": {
+            "HangKid": {
+                "status": "ACTIVE",
+                "message": "Neu seit 2026"
+            },
+            "Hedes Krake Ende": {
+                "status": "ACTIVE"
+            },
+            "Homies": {
+                "status": "ACTIVE"
+            },
+            "Krake": {
+                "status": "ACTIVE"
+            },
+            "ManeRiver": {
+                "status": "DESTROYED"
+            },
+            "Pumptrail": {
+                "status": "ACTIVE"
+            },
+            "Quarry Corner": {
+                "alt_name": "Kiwi",
+                "status": "WARNING",
+                "message": "Abschnitt ab Steinbruch: zwei Sturmsch\u00e4den auf Trail",
+                "last_checkup": "2026-08-26"
+            },
+            "Roda DH": {
+                "status": "INACTIVE"
+            },
+            "Stony": {
+                "status": "DESTROYED"
+            },
+            "Tentakel": {
+                "status": "ACTIVE"
+            },
+            "The Real": {
+                "status": "ACTIVE"
+            },
+            "TK": {
+                "status": "ACTIVE"
+            },
+            "WarmUp zu den Homies": {
+                "status": "ACTIVE"
+            },
+            "Wilde Hilde": {
+                "status": "ACTIVE"
+            }
+        },
+        "Kickelhahn": {
+            "Project One": {
+                "ref": "P1",
+                "status": "ACTIVE",
+                "message": "Erster Abschnitt wurde freiger\u00e4umt (Juni 2026)",
+                "last_checkup": "2026-07-01"
+            },
+            "Schr\u00e4ger Kicki": {
+                "alt_name": "Meistertrail",
+                "status": "WARNING",
+                "message": "Erster Abschnitt durch Forstarbeiten nicht fahrbar"
+            },
+            "Top of Ilmenau 1": {
+                "alt_name": "Waldstra\u00dfe DH",
+                "ref": "TOI1",
+                "status": "ACTIVE",
+                "message": "",
+                "last_checkup": "2026-09-09"
+            },
+            "Top of Ilmenau 2": {
+                "ref": "TOI2",
+                "status": "ACTIVE",
+                "message": "",
+                "last_checkup": "2026-09-01"
+            }
+        },
+        "Lindenberg": {
+            "Enduro Trail": {
+                "status": "ACTIVE"
+            },
+            "Flow Trail": {
+                "status": "ACTIVE"
+            },
+            "ILRC Downhillstrecke": {
+                "status": "ACTIVE",
+                "message": "",
+                "last_checkup": "2026-09-02"
+            },
+            "ILRC Linduro": {
+                "status": "ACTIVE",
+                "message": "Neue untere Ausfahrt seit Mai 2026"
+            },
+            "ILRC Trainingsstrecke": {
+                "status": "ACTIVE",
+                "message": ""
+            },
+            "Long Bob": {
+                "status": "DESTROYED"
+            },
+            "Play Line": {
+                "status": "ACTIVE"
+            },
+            "Rollercoaster": {
+                "status": "WARNING",
+                "message": "Oben liegen mehrere B\u00e4ume im Trail. Letzte Einfahrt mit Schutt zugesch\u00fcttet (Achtung: Glasscherben im Schutt)",
+                "last_checkup": "2026-08-23"
+            },
+            "Schortetrail": {
+                "status": "DESTROYED"
+            },
+            "Speedy Wonder": {
+                "status": "DESTROYED"
+            },
+            "Steepy Wonder": {
+                "status": "ACTIVE"
+            }
+        }
     },
-    "Lindenberg": {
-      "Enduro Trail": {
-        "status": "ACTIVE"
-      },
-      "Flow Trail": {
-        "status": "ACTIVE"
-      },
-      "ILRC Downhillstrecke": {
-        "status": "ACTIVE",
-        "message": "",
-        "last_checkup": "2026-09-02"
-      },
-      "ILRC Linduro": {
-        "status": "ACTIVE",
-        "message": "Neue untere Ausfahrt seit Mai 2026"
-      },
-      "ILRC Trainingsstrecke": {
-        "status": "ACTIVE",
-        "message": ""
-      },
-      "Long Bob": {
-        "status": "DESTROYED"
-      },
-      "Play Line": {
-        "status": "ACTIVE"
-      },
-      "Rollercoaster": {
-        "status": "WARNING",
-        "message": "Oben liegen mehrere Bäume im Trail. Letzte Einfahrt mit Schutt zugeschüttet (Achtung: Glasscherben im Schutt)",
-        "last_checkup": "2026-08-23"
-      },
-      "Schortetrail": {
-        "status": "DESTROYED"
-      },
-      "Speedy Wonder": {
-        "status": "DESTROYED"
-      },
-      "Steepy Wonder": {
-        "status": "ACTIVE"
-      }
+    "Langewiesen": {
+        "Tragberg": {
+            "Tragbergtrail": {
+                "status": "WARNING",
+                "message": "Zum Teil stark zugewachsen.",
+                "last_checkup": "2026-08-01"
+            },
+            "Wurzeltrail": {
+                "status": "WARNING",
+                "message": "Zum Teil stark zugewachsen."
+            }
+        }
     }
-  },
-  "Langewiesen": {
-    "Tragberg": {
-      "Tragbergtrail": {
-        "status": "WARNING",
-        "message": "Zum Teil stark zugewachsen.",
-        "last_checkup": "2026-08-01"
-      },
-      "Wurzeltrail": {
-        "status": "WARNING",
-        "message": "Zum Teil stark zugewachsen."
-      }
-    }
-  }
 }
