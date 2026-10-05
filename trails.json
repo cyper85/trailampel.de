@@ -82,11 +82,6 @@
     },
     "Geraberg": {
         "Steintal": {
-            "Kaltwelle": {
-                "status": "NOT READY",
-                "message": "vorl\u00e4ufige Benennung -> Richtiger Name noch unbekannt",
-                "last_checkup": "2026-09-22"
-            },
             "Steep Valley": {
                 "status": "ACTIVE",
                 "message": "Wieder frei mit teilweise neuem zweiten Abschnitt (Mai 2026)"
@@ -100,9 +95,6 @@
             "Steintal 2": {
                 "status": "CLOSED",
                 "message": "September & Oktober bitte nicht befahren"
-            },
-            "Steintal 3": {
-                "status": "NOT READY"
             }
         }
     },
