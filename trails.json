@@ -14,9 +14,9 @@
                 "message": "Ende seit 2024 bereits am neuen Hoch-Wasser-Beh\u00e4lter."
             },
             "Huckland": {
-                "status": "WARNING",
-                "message": "Erster Abschnitt wiederhergestellt. Im letzten Abschnitt liegen noch B\u00e4ume.",
-                "last_checkup": "2026-09-29"
+                "status": "ACTIVE",
+                "message": "Neubelebt 09-2026",
+                "last_checkup": "2026-10-08"
             },
             "Huck Noris": {
                 "status": "DESTROYED"
