@@ -5,17 +5,17 @@
   "description": "A City or Village",
   "type": "object",
   "patternProperties": {
-    "^[A-Z][a-z]+(-[A-Z][a-z]+)*$": {
+    "^[A-ZÄÖÜ][a-zäöüß]+(-[A-ZÄÖÜ][a-zäöüß]+)*$": {
       "title": "City",
       "description": "Name of the city",
       "type": "object",
       "patternProperties": {
-        "^[A-Z][a-z]+(-[A-Z][a-z]+)*$": {
+        "^[A-ZÄÖÜ][a-zäöüß]+([ -][A-ZÄÖÜ][a-zäöüß]+)*$": {
           "title": "Zone",
           "description": "Name of the zone",
           "type": "object",
           "patternProperties": {
-            "^[A-Za-z0-9- ]+$": {
+            "^[A-ZÄÖÜa-zäöüß0-9- ]+$": {
               "title": "Trail",
               "description": "Name of the trail",
               "type": "object",
@@ -46,14 +46,19 @@
                 "last_checkup": {
                   "description": "Last Modified Date",
                   "type": "string",
-                  "pattern": "[0-9]{4}(-[0-9]{2}){2}"
+                  "format": "date",
+                  "pattern": "^[0-9]{4}(-[0-9]{2}){2}$"
                 }
               },
-              "required": ["status"]
+              "required": ["status"],
+              "additionalProperties": false
             }
-          }
+          },
+          "additionalProperties": false
         }
-      }
+      },
+      "additionalProperties": false
     }
-  }
+  },
+  "additionalProperties": false
 }

@@ -1,9 +1,22 @@
 
 @import "variables";
 
-$navbar-dark-brand-color: $yellow;
+// Import Bootstrap (nur die benötigten Teile)
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables-dark";
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/utilities";
 
-// Import Bootstrap
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
+// Nur bg-* und text-* Utilities erzeugen
+$utilities: map-get-multiple($utilities, ("background-color", "color"));
+
+@import "../node_modules/bootstrap/scss/root";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/tables";
+@import "../node_modules/bootstrap/scss/buttons";
+@import "../node_modules/bootstrap/scss/utilities/api";
 
 @import "global";

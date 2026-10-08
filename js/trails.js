@@ -3,7 +3,7 @@ function readTextFile(file, callback) {
     rawFile.overrideMimeType("application/json");
     rawFile.open("GET", file, true);
     rawFile.onreadystatechange = function() {
-        if (rawFile.readyState === 4 && rawFile.status == "200") {
+        if (rawFile.readyState === 4 && rawFile.status === 200) {
             callback(rawFile.responseText);
         }
     }
@@ -33,8 +33,6 @@ readTextFile("trails.json", function(text){
     const data = JSON.parse(text);
     const trailtable = document.body.querySelector('#trailtable');
 
-    console.log(data);
-
     // Empty Table
     trailtable.innerHTML = "";
 
@@ -62,30 +60,29 @@ readTextFile("trails.json", function(text){
     trailtable.appendChild(thead);
     trailtable.appendChild(tbody);
     var current_tr = document.createElement("tr");
-    tbody.appendChild(current_tr);
-    for (city in data) {
+    for (const city in data) {
         const city_td = document.createElement("td");
         city_td.classList.add("city");
-        city_td.innerHTML = city;
+        city_td.textContent = city;
         var rowspan = 0;
-        for(zone in data[city]) { rowspan += Object.keys(data[city][zone]).length; }
+        for(const zone in data[city]) { rowspan += Object.keys(data[city][zone]).length; }
         city_td.setAttribute("rowspan",rowspan);
         current_tr.appendChild(city_td);
 
-        for(zone in data[city]) {
+        for(const zone in data[city]) {
             const zone_td = document.createElement("td");
             zone_td.classList.add("zone");
-            zone_td.innerHTML = zone;
+            zone_td.textContent = zone;
             zone_td.setAttribute("rowspan",Object.keys(data[city][zone]).length);
             current_tr.appendChild(zone_td);
 
-            for(trail in data[city][zone]) {
+            for(const trail in data[city][zone]) {
                 const trail_td = document.createElement("td");
                 trail_td.classList.add("trail");
                 if ('alt_name' in data[city][zone][trail]) {
-                    trail_td.innerHTML = trail + ' (' + data[city][zone][trail]['alt_name'] + ')';
+                    trail_td.textContent = trail + ' (' + data[city][zone][trail]['alt_name'] + ')';
                 } else {
-                    trail_td.innerHTML = trail;
+                    trail_td.textContent = trail;
                 }
                 current_tr.appendChild(trail_td);
                 const state_td = document.createElement("td");
@@ -114,7 +111,7 @@ readTextFile("trails.json", function(text){
                 }
 
                 if (data[city][zone][trail]['message']) {
-                    state_td.innerHTML = state_td.innerHTML + data[city][zone][trail]['message'];
+                    state_td.textContent += data[city][zone][trail]['message'];
                 }
 
                 if (data[city][zone][trail]['last_checkup']) {
@@ -135,11 +132,9 @@ readTextFile("trails.json", function(text){
                 editor_td.appendChild(editor_button);
                 current_tr.appendChild(editor_td);
 
-                current_tr = document.createElement("tr");
                 tbody.appendChild(current_tr);
+                current_tr = document.createElement("tr");
             }
         }
     }
-
-
 });

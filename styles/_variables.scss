@@ -13,12 +13,7 @@ $yellow: #ffc107;
 
 // Override Bootstrap default state colors
 
-$primary: $orange;
-
 $primary: #000000;
-$primary-color: #FFFFFF;
-$heading-color: #ffc107;
-$secondary-color: #ffc107;
 
 
 //
@@ -79,20 +74,6 @@ $secondary-color: #ffc107;
   src: url('../styles/fonts/noto-sans-v39-latin_latin-ext-800italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
-
-
-//
-// Spacing
-//
-
-// Spacing variable to set the sidebar base width
-
-$sidebar-base-width: 17rem;
-
-// Spacing variable to add padding to the top of the body element that matches the height of the navbar
-
-$navbar-base-height: 3.375rem;
-
 //
 // Variables
 //
@@ -114,19 +95,3 @@ $headings-color: $gray-800;
 $h1-font-size: 6rem;
 $h2-font-size: 3.5rem;
 $h3-font-size: 2rem;
-
-h2.text-black,.nav-link.text-black{
-  color: #000000;
-}
-
-h2.text-red,.nav-link.text-red{
-  color: #ff1e1e;
-}
-
-h2.text-blue,.nav-link.text-blue{
-  color: #1e1eff;
-}
-
-.closed, .nav-link.closed {
-  text-decoration:line-through;
-}
