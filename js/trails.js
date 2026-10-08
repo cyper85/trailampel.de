@@ -28,9 +28,50 @@ function last_checkup(checkup_string) {
     return span.outerHTML;
 }
 
+// E-Mail-Adresse erst im Browser zusammensetzen, damit sie nicht im Quelltext steht
+function reveal_email(element) {
+    const reverse = s => s.split('').reverse().join('');
+    const address = reverse(element.dataset.user) + '@' + reverse(element.dataset.domain);
+    const link = document.createElement('a');
+    link.href = 'mailto:' + address;
+    link.textContent = address;
+    element.replaceChildren(link);
+}
+document.querySelectorAll('.email').forEach(reveal_email);
+
+const RIDEABLE_STATES = ["ACTIVE", "WARNING"];
+
+// Liefert nur die fahrbaren Trails; Städte und Zonen ohne fahrbare Trails entfallen
+function filter_rideable(data) {
+    const result = {};
+    for (const city in data) {
+        for (const zone in data[city]) {
+            for (const trail in data[city][zone]) {
+                if (RIDEABLE_STATES.includes(data[city][zone][trail]['status'])) {
+                    result[city] ??= {};
+                    result[city][zone] ??= {};
+                    result[city][zone][trail] = data[city][zone][trail];
+                }
+            }
+        }
+    }
+    return result;
+}
+
 //usage:
 readTextFile("trails.json", function(text){
-    const data = JSON.parse(text);
+    const all_trails = JSON.parse(text);
+    const filter = document.body.querySelector('#filter-rideable');
+
+    filter.checked = localStorage.getItem('filter-rideable') === '1';
+    filter.addEventListener('change', function() {
+        localStorage.setItem('filter-rideable', filter.checked ? '1' : '0');
+        render_table(filter.checked ? filter_rideable(all_trails) : all_trails);
+    });
+    render_table(filter.checked ? filter_rideable(all_trails) : all_trails);
+});
+
+function render_table(data) {
     const trailtable = document.body.querySelector('#trailtable');
 
     // Empty Table
@@ -137,4 +178,4 @@ readTextFile("trails.json", function(text){
             }
         }
     }
-});
+}

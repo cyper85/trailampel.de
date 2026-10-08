@@ -12,6 +12,10 @@
 </head>
 <body class="trailtable">
 <h1>Trail Ampel</h1>
+<label class="trail-filter">
+    <input type="checkbox" id="filter-rideable" />
+    Nur fahrbare Trails anzeigen
+</label>
 <table id="trailtable" class="table table-dark table-bordered" style="width:100%">
     <thead>
     <tr>
@@ -19,10 +23,17 @@
     </tr>
     </thead>
 </table>
-<footer>
-    <div>Andreas Neumann</div>
-    <div>Obertorstraße 11</div>
-    <div>98693 Ilmenau</div>
+<footer class="impressum">
+    <h2>Impressum</h2>
+    <p>Angaben gemäß § 5 DDG</p>
+    <address>
+        Andreas Neumann<br />
+        Obertorstraße 11<br />
+        98693 Ilmenau
+    </address>
+    <p>
+        E-Mail: <span class="email" data-user="retsambew" data-domain="ed.uanemli-nalptdats">bitte JavaScript aktivieren</span>
+    </p>
 </footer>
 <script src="js/trails.js"></script>
 </body>
