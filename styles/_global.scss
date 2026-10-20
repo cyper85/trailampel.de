@@ -130,4 +130,21 @@ footer.impressum {
   p, address {
     margin-bottom: 0.5rem;
   }
+
+  // Unauffälliger Link zum Quellcode
+  .github-link {
+    display: inline-block;
+    color: inherit;
+    opacity: 0.5;
+    transition: opacity 0.2s;
+
+    &:hover,
+    &:focus {
+      opacity: 1;
+    }
+
+    svg {
+      display: block;
+    }
+  }
 }
