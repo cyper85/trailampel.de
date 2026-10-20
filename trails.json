@@ -4,6 +4,10 @@
             "Bratwurst": {
                 "status": "DESTROYED"
             },
+            "Burnout": {
+                "status": "ACTIVE",
+                "last_checkup": "2026-10-20"
+            },
             "Happy Hippo": {
                 "status": "ACTIVE",
                 "message": "",
@@ -43,6 +47,10 @@
             "Emmastein Wanderweg": {
                 "status": "ACTIVE",
                 "last_checkup": "2026-07-01"
+            },
+            "Leiter": {
+                "status": "ACTIVE",
+                "last_checkup": "2026-10-14"
             },
             "Rumpelsbergtrail": {
                 "status": "ACTIVE",
