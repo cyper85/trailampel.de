@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ClaudeCodeEditorTabs">
-    <option name="activeSessionId" value="90e97806-7d6a-44de-b0ff-a64eb8967083" />
+    <option name="activeSessionId" value="721d16a8-4a9e-4e56-b3e4-bf3f6bffcdd3" />
     <option name="openSessionIds">
       <list>
         <option value="86a72c3c-e0ce-4d8b-8782-8dfdd0bdeb31" />
         <option value="6af0fb0b-5541-467e-a44d-8751b46d6d29" />
         <option value="0d27cf95-d385-4ef6-81f1-4c8aa45500df" />
         <option value="155dd396-b236-412f-b10e-857178a890ae" />
-        <option value="90e97806-7d6a-44de-b0ff-a64eb8967083" />
+        <option value="721d16a8-4a9e-4e56-b3e4-bf3f6bffcdd3" />
       </list>
     </option>
     <option name="sessionPaths">
@@ -16,8 +16,8 @@
         <entry key="0d27cf95-d385-4ef6-81f1-4c8aa45500df" value="/sessions/95e2ad59-eb8e-4dc3-850f-39d588315a9a" />
         <entry key="155dd396-b236-412f-b10e-857178a890ae" value="/sessions/1b3f14bb-32b5-42d7-b2a6-a41e8531e0e9" />
         <entry key="6af0fb0b-5541-467e-a44d-8751b46d6d29" value="/sessions/new" />
+        <entry key="721d16a8-4a9e-4e56-b3e4-bf3f6bffcdd3" value="/sessions/39123121-b79d-4cc2-bd55-1ca1ed573d56" />
         <entry key="86a72c3c-e0ce-4d8b-8782-8dfdd0bdeb31" value="/sessions/d0227674-82ba-4c93-ba6c-9a9d5f224165" />
-        <entry key="90e97806-7d6a-44de-b0ff-a64eb8967083" value="/sessions/dafe9205-2743-4089-8210-c9625ff9b7de" />
       </map>
     </option>
     <option name="sessionTitles">
@@ -25,8 +25,8 @@
         <entry key="0d27cf95-d385-4ef6-81f1-4c8aa45500df" value="was kann ich am Projekt verbessern?" />
         <entry key="155dd396-b236-412f-b10e-857178a890ae" value="kannst du einen statischen unscheinbaren Link in d" />
         <entry key="6af0fb0b-5541-467e-a44d-8751b46d6d29" value="Claude Code" />
+        <entry key="721d16a8-4a9e-4e56-b3e4-bf3f6bffcdd3" value="Trailampel Aria-Tags für Barrierefreiheit" />
         <entry key="86a72c3c-e0ce-4d8b-8782-8dfdd0bdeb31" value="kannst du mir empfehlungen geben, was ich verbesse" />
-        <entry key="90e97806-7d6a-44de-b0ff-a64eb8967083" value="Trailampel.de Lighthouse-Anmerkungen" />
       </map>
     </option>
   </component>
