@@ -18,10 +18,11 @@
 <main>
 <h1>Trail Ampel</h1>
 <label class="trail-filter">
-    <input type="checkbox" id="filter-rideable" />
+    <input type="checkbox" id="filter-rideable" aria-controls="trailtable" />
     Nur fahrbare Trails anzeigen
 </label>
-<table id="trailtable" class="table table-dark table-bordered is-loading" style="width:100%">
+<p id="trail-count" class="visually-hidden" role="status" aria-live="polite"></p>
+<table id="trailtable" class="table table-dark table-bordered is-loading" style="width:100%" role="table" aria-label="Status der Trails" aria-busy="true">
     <thead>
     <tr>
         <th>Wird geladen</th>

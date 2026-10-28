@@ -64,12 +64,14 @@ span.last_checkup {
   }
 
   #trailtable {
+    // Nur optisch ausblenden, damit Screenreader die Spaltenköpfe weiterhin kennen
     thead {
-      display: none;
+      @include visually-hidden();
     }
 
     &,
     tbody,
+    tbody th,
     td {
       display: block;
     }
@@ -79,7 +81,7 @@ span.last_checkup {
       grid-template-columns: 1fr auto;
     }
 
-    td.city {
+    .city {
       grid-column: 1 / -1;
       order: 0;
       margin-top: 1.5rem;
@@ -89,7 +91,7 @@ span.last_checkup {
       text-transform: uppercase;
     }
 
-    td.zone {
+    .zone {
       grid-column: 1 / -1;
       order: 1;
       font-weight: 800;
@@ -116,9 +118,11 @@ span.last_checkup {
       order: 4;
       padding-top: 0;
 
-      // Bei grünen Trails ohne Text keine leere Fläche anzeigen
-      &:empty {
-        display: none;
+      // Bei grünen Trails ohne sichtbaren Text keine leere Fläche anzeigen.
+      // Nicht display: none, sonst geht auch der Statustext für Screenreader verloren
+      &.no-visible-content {
+        padding: 0;
+        border: 0;
       }
     }
   }
