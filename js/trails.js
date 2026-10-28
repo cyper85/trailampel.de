@@ -76,6 +76,7 @@ function render_table(data) {
 
     // Empty Table
     trailtable.innerHTML = "";
+    trailtable.classList.remove("is-loading");
 
     // Table Head
     const thead = document.createElement("thead");
@@ -91,6 +92,7 @@ function render_table(data) {
     th_trail.innerHTML = "Trail";
     th_state.innerHTML = "Status";
     th_empty.classList.add("editor-button");
+    th_empty.innerHTML = '<span class="visually-hidden">Bearbeiten</span>';
 
     tr_head.appendChild(th_city);
     tr_head.appendChild(th_zone);

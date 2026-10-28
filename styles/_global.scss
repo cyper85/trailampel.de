@@ -37,6 +37,15 @@ h1 {
   }
 }
 
+.visually-hidden {
+  @include visually-hidden();
+}
+
+// Platz reservieren, bis die Trails geladen sind – sonst springt der Footer (CLS)
+#trailtable.is-loading {
+  height: 100vh;
+}
+
 // Spalte so schmal wie der Button
 td.editor-button, th.editor-button {
   width: 1%;

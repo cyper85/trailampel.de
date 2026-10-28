@@ -6,23 +6,29 @@
 
     <meta name="author" content="Andreas Neumann" />
     <meta name="description" content="Status-Anzeige für MTB Trails der Region" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preload" href="styles/fonts/noto-sans-v39-latin_latin-ext-regular.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="styles/fonts/noto-sans-v39-latin_latin-ext-800.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="styles/fonts/saira-extra-condensed-v14-latin_latin-ext-700.woff2" as="font" type="font/woff2" crossorigin />
     <link href="styles/styles.css" rel="stylesheet" />
     <link rel="icon" type="image/svg+xml" href="styles/ampel.svg" sizes="any" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="js/trails.js" defer></script>
 </head>
 <body class="trailtable">
+<main>
 <h1>Trail Ampel</h1>
 <label class="trail-filter">
     <input type="checkbox" id="filter-rideable" />
     Nur fahrbare Trails anzeigen
 </label>
-<table id="trailtable" class="table table-dark table-bordered" style="width:100%">
+<table id="trailtable" class="table table-dark table-bordered is-loading" style="width:100%">
     <thead>
     <tr>
         <th>Wird geladen</th>
     </tr>
     </thead>
 </table>
+</main>
 <footer class="impressum">
     <h2>Impressum</h2>
     <p>Angaben gemäß § 5 DDG</p>
@@ -40,6 +46,5 @@
         </svg>
     </a>
 </footer>
-<script src="js/trails.js"></script>
 </body>
 </html>
