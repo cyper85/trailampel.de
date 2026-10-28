@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="OrchidESettings">
+    <option name="enabledFoldingElements">
+      <map>
+        <entry key="Block and Roles" value="false" />
+        <entry key="Keywords" value="false" />
+        <entry key="Module Arguments" value="false" />
+        <entry key="Modules" value="false" />
+        <entry key="Tasks" value="true" />
+      </map>
+    </option>
+    <option name="newFileActionAnsibleDefaultFileExtension" value="yaml" />
+  </component>
+</project>
