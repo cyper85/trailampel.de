@@ -102,8 +102,8 @@
                 "last_checkup": "2026-07-29"
             },
             "Steintal 2": {
-                "status": "CLOSED",
-                "message": "September & Oktober bitte nicht befahren"
+                "status": "ACTIVE",
+                "last_checkup": "2026-10-31"
             }
         }
     },
