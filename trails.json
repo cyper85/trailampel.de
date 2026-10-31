@@ -159,9 +159,9 @@
         "Kickelhahn": {
             "Project One": {
                 "ref": "P1",
-                "status": "ACTIVE",
-                "message": "Erster Abschnitt wurde freigeräumt (Juni 2026)",
-                "last_checkup": "2026-07-01"
+                "status": "WARNING",
+                "message": "Erster Abschnitt ist der Forst drin",
+                "last_checkup": "2026-10-31"
             },
             "Schräger Kicki": {
                 "alt_name": "Meistertrail",
