@@ -171,9 +171,9 @@
             "Top of Ilmenau 1": {
                 "alt_name": "Waldstraße DH",
                 "ref": "TOI1",
-                "status": "ACTIVE",
-                "message": "",
-                "last_checkup": "2026-09-09"
+                "status": "WARNING",
+                "message": "Sturmschaden im letzten abschnitt",
+                "last_checkup": "2026-10-31"
             },
             "Top of Ilmenau 2": {
                 "ref": "TOI2",
