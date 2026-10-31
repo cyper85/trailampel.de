@@ -209,9 +209,8 @@
                 "status": "ACTIVE"
             },
             "Rollercoaster": {
-                "status": "WARNING",
-                "message": "Nach Hinweis vom Forst im Oktober bitte nicht fahren",
-                "last_checkup": "2026-10-09"
+                "status": "ACTIVE",
+                "last_checkup": "2026-10-31"
             },
             "Schortetrail": {
                 "status": "DESTROYED"
