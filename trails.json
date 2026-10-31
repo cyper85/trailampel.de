@@ -5,8 +5,9 @@
                 "status": "DESTROYED"
             },
             "Burnout": {
-                "status": "ACTIVE",
-                "last_checkup": "2026-10-20"
+                "status": "INACTIVE",
+                "last_checkup": "2026-10-31",
+                "message": "Forst drin"
             },
             "Happy Hippo": {
                 "status": "ACTIVE",
@@ -15,7 +16,7 @@
             },
             "Hohlweg": {
                 "status": "ACTIVE",
-                "message": "Ende seit 2024 bereits am neuen Hoch-Wasser-Beh\u00e4lter."
+                "message": "Ende seit 2024 bereits am neuen Hoch-Wasser-Behälter."
             },
             "Huckland": {
                 "status": "ACTIVE",
@@ -59,7 +60,7 @@
             },
             "Top of Rumpelsberg 2": {
                 "status": "WARNING",
-                "message": "Erster Teil Forstarbeiten, zweiter Teil frei. Kann gem\u00e4ht werden.",
+                "message": "Erster Teil Forstarbeiten, zweiter Teil frei. Kann gemäht werden.",
                 "last_checkup": "2026-09-29"
             }
         }
@@ -68,7 +69,7 @@
         "Hexenstein": {
             "Zick Zack Weg": {
                 "status": "WARNING",
-                "message": "Durch Forstarbeiten stark in Mitleidenschaft gezogen. Grunds\u00e4tzlich fahrbar"
+                "message": "Durch Forstarbeiten stark in Mitleidenschaft gezogen. Grundsätzlich fahrbar"
             }
         },
         "Langer Berg": {
@@ -77,7 +78,7 @@
                 "message": "Teils stark zugewachsen und Einfahrten nicht erkennbar",
                 "last_checkup": "2026-06-01"
             },
-            "Hinterm G\u00fcnter Denkmal": {
+            "Hinterm Günter Denkmal": {
                 "status": "WARNING",
                 "message": "Teils stark zugewachsen und Einfahrten nicht erkennbar",
                 "last_checkup": "2026-06-01"
@@ -97,7 +98,7 @@
             "Steintal 1": {
                 "alt_name": "Stone Valley",
                 "status": "WARNING",
-                "message": "Zweiter Abschnitt bis W\u00e4ldchen zerst\u00f6rt (Mai 2026). Letzter Abschnitt neu gelegt (Sept. 2025)",
+                "message": "Zweiter Abschnitt bis Wäldchen zerstört (Mai 2026). Letzter Abschnitt neu gelegt (Sept. 2025)",
                 "last_checkup": "2026-07-29"
             },
             "Steintal 2": {
@@ -130,7 +131,7 @@
             "Quarry Corner": {
                 "alt_name": "Kiwi",
                 "status": "WARNING",
-                "message": "Abschnitt ab Steinbruch: zwei Sturmsch\u00e4den auf Trail",
+                "message": "Abschnitt ab Steinbruch: zwei Sturmschäden auf Trail",
                 "last_checkup": "2026-08-26"
             },
             "Roda DH": {
@@ -159,16 +160,16 @@
             "Project One": {
                 "ref": "P1",
                 "status": "ACTIVE",
-                "message": "Erster Abschnitt wurde freiger\u00e4umt (Juni 2026)",
+                "message": "Erster Abschnitt wurde freigeräumt (Juni 2026)",
                 "last_checkup": "2026-07-01"
             },
-            "Schr\u00e4ger Kicki": {
+            "Schräger Kicki": {
                 "alt_name": "Meistertrail",
                 "status": "WARNING",
                 "message": "Erster Abschnitt durch Forstarbeiten nicht fahrbar"
             },
             "Top of Ilmenau 1": {
-                "alt_name": "Waldstra\u00dfe DH",
+                "alt_name": "Waldstraße DH",
                 "ref": "TOI1",
                 "status": "ACTIVE",
                 "message": "",
