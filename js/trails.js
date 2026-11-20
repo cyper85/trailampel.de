@@ -90,6 +90,16 @@ const STATUS_LABELS = {
     "NOT READY": "Noch nicht fertig"
 };
 
+// Icon je Status, damit er auch ohne Farbwahrnehmung unterscheidbar ist
+const STATUS_ICONS = {
+    "ACTIVE": "✔",
+    "WARNING": "⚠",
+    "CLOSED": "\u{1F6B3}",
+    "INACTIVE": "\u{1F4A4}",
+    "DESTROYED": "☠",
+    "NOT READY": "\u{1F6A7}"
+};
+
 // Erzeugt eine Zelle mit expliziter ARIA-Rolle: Auf dem Handy wird die Tabelle per CSS
 // zu Blöcken umgebaut, wodurch manche Browser die Tabellensemantik verwerfen
 function create_cell(tag, role, ...classes) {
@@ -156,17 +166,25 @@ function render_table(data) {
 
             for(const trail in data[city][zone]) {
                 trail_count++;
+                const status = data[city][zone][trail]['status'];
                 const trail_td = create_cell("td", "cell", "trail");
+                if (STATUS_ICONS[status]) {
+                    // Nur zur Optik, der Status wird Screenreadern als Text vorgelesen
+                    const icon = document.createElement("span");
+                    icon.classList.add("status-icon");
+                    icon.setAttribute("aria-hidden", "true");
+                    icon.textContent = STATUS_ICONS[status];
+                    trail_td.appendChild(icon);
+                }
                 if ('alt_name' in data[city][zone][trail]) {
-                    trail_td.textContent = trail + ' (' + data[city][zone][trail]['alt_name'] + ')';
+                    trail_td.append(trail + ' (' + data[city][zone][trail]['alt_name'] + ')');
                 } else {
-                    trail_td.textContent = trail;
+                    trail_td.append(trail);
                 }
                 current_tr.appendChild(trail_td);
                 const state_td = create_cell("td", "cell", "state");
                 current_tr.appendChild(state_td);
 
-                const status = data[city][zone][trail]['status'];
                 const status_label = document.createElement("span");
                 status_label.classList.add("visually-hidden");
                 status_label.textContent = (STATUS_LABELS[status] ?? status) + '. ';
@@ -175,19 +193,11 @@ function render_table(data) {
                 if (status === "ACTIVE") {
                     trail_td.classList.add("bg-success");
                     state_td.classList.add("bg-success");
-                } else if (data[city][zone][trail]['status'] === "WARNING") {
+                } else if (status === "WARNING") {
                     trail_td.classList.add("bg-warning");
                     state_td.classList.add("bg-warning");
                     trail_td.classList.add("text-black");
                     state_td.classList.add("text-black");
-                } else if (data[city][zone][trail]['status'] === "CLOSED") {
-                    trail_td.classList.add("bg-danger");
-                    state_td.classList.add("bg-danger");
-                    state_td.insertAdjacentHTML("beforeend", '<span aria-hidden="true">&#128691;&nbsp;</span>');
-                } else if (data[city][zone][trail]['status'] === "DESTROYED") {
-                    trail_td.classList.add("bg-danger");
-                    state_td.classList.add("bg-danger");
-                    state_td.insertAdjacentHTML("beforeend", '<span aria-hidden="true">&#9760;&nbsp;</span>');
                 } else {
                     trail_td.classList.add("bg-danger");
                     state_td.classList.add("bg-danger");

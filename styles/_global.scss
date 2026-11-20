@@ -52,6 +52,12 @@ td.editor-button, th.editor-button {
   white-space: nowrap;
 }
 
+// Status-Icon vor dem Trailnamen
+span.status-icon {
+  display: inline-block;
+  min-width: 1.5em;
+}
+
 span.last_checkup {
   font-size: 80%;
   margin-left: 10px;
