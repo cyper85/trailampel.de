@@ -144,9 +144,11 @@ footer.impressum {
     margin-bottom: 0.5rem;
   }
 
-  // Unauffälliger Link zum Quellcode
-  .github-link {
+  // Unauffällige Links zum Quellcode und RSS-Feed
+  .github-link,
+  .feed-link {
     display: inline-block;
+    margin-right: 0.5rem;
     color: inherit;
     opacity: 0.5;
     transition: opacity 0.2s;

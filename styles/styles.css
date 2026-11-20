@@ -1665,16 +1665,21 @@ footer.impressum h2, footer.impressum .h2 {
 footer.impressum p, footer.impressum address {
   margin-bottom: 0.5rem;
 }
-footer.impressum .github-link {
+footer.impressum .github-link,
+footer.impressum .feed-link {
   display: inline-block;
+  margin-right: 0.5rem;
   color: inherit;
   opacity: 0.5;
   transition: opacity 0.2s;
 }
-footer.impressum .github-link:hover, footer.impressum .github-link:focus {
+footer.impressum .github-link:hover, footer.impressum .github-link:focus,
+footer.impressum .feed-link:hover,
+footer.impressum .feed-link:focus {
   opacity: 1;
 }
-footer.impressum .github-link svg {
+footer.impressum .github-link svg,
+footer.impressum .feed-link svg {
   display: block;
 }
 
