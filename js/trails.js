@@ -39,6 +39,13 @@ function reveal_email(element) {
 }
 document.querySelectorAll('.email').forEach(reveal_email);
 
+// Legende merkt sich, ob sie aufgeklappt war
+const legend = document.querySelector('#legend');
+legend.open = localStorage.getItem('legend-open') === '1';
+legend.addEventListener('toggle', function() {
+    localStorage.setItem('legend-open', legend.open ? '1' : '0');
+});
+
 const RIDEABLE_STATES = ["ACTIVE", "WARNING"];
 
 // Liefert nur die fahrbaren Trails; Städte und Zonen ohne fahrbare Trails entfallen

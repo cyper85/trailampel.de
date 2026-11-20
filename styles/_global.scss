@@ -129,6 +129,77 @@ span.last_checkup {
 }
 
 //
+// Einklappbare Bereiche (Legende, Impressum)
+//
+
+details.collapsible {
+  summary {
+    display: inline-block;
+    font-family: $headings-font-family;
+    font-size: 1.5rem;
+    font-weight: $headings-font-weight;
+    color: $headings-color;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    // Eigenes Auf-/Zuklapp-Symbol, da display: inline-block den Standard-Marker entfernt
+    &::before {
+      content: "\25B8";
+      display: inline-block;
+      width: 1em;
+      transition: transform 0.2s;
+    }
+  }
+
+  &[open] summary::before {
+    transform: rotate(90deg);
+  }
+
+  // Überschrift im summary (Impressum) neben dem Pfeil halten
+  summary > h2 {
+    display: inline;
+    margin: 0;
+    font-size: inherit;
+  }
+}
+
+details.legend {
+  margin: 1.5rem 0 0;
+
+  p {
+    margin: 0.5rem 0 0;
+  }
+}
+
+.legend-list {
+  list-style: none;
+  margin: 0.5rem 0 0;
+  padding: 0;
+
+  li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.35rem;
+  }
+}
+
+.legend-swatch {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 1.5rem;
+  border-radius: 0.25rem;
+  line-height: 1;
+}
+
+.legend-example.last_checkup {
+  margin-left: 0;
+}
+
+//
 // Impressum
 //
 
@@ -136,8 +207,8 @@ footer.impressum {
   margin: 2rem 0 1rem;
   font-size: 0.875rem;
 
-  h2 {
-    font-size: 1.5rem;
+  details {
+    margin-bottom: 0.5rem;
   }
 
   p, address {
