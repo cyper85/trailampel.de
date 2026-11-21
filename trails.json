@@ -183,6 +183,26 @@
             }
         },
         "Lindenberg": {
+            "Long Bob": {
+                "status": "DESTROYED"
+            },
+            "Rollercoaster": {
+                "status": "INACTIVE",
+                "last_checkup": "2026-11-20",
+                "message": "Ab ersten Weg Trail stark zerstört. Trail im weiteren Verlauf durch mehrere Harvester Spuren gekreuzt. Letzter Abschnitt noch fahrbar mit viel Laub."
+            },
+            "Schortetrail": {
+                "status": "DESTROYED"
+            },
+            "Speedy Wonder": {
+                "status": "DESTROYED"
+            },
+            "Steepy Wonder": {
+                "status": "ACTIVE",
+                "last_checkup": "2026-10-31"
+            }
+        },
+        "Trailpark Lindenberg": {
             "Enduro Trail": {
                 "status": "ACTIVE"
             },
@@ -202,26 +222,8 @@
                 "status": "ACTIVE",
                 "message": ""
             },
-            "Long Bob": {
-                "status": "DESTROYED"
-            },
             "Play Line": {
                 "status": "ACTIVE"
-            },
-            "Rollercoaster": {
-                "status": "INACTIVE",
-                "last_checkup": "2026-11-20",
-                "message": "Ab ersten Weg Trail stark zerstört. Trail im weiteren Verlauf durch mehrere Harvester Spuren gekreuzt. Letzter Abschnitt noch fahrbar mit viel Laub."
-            },
-            "Schortetrail": {
-                "status": "DESTROYED"
-            },
-            "Speedy Wonder": {
-                "status": "DESTROYED"
-            },
-            "Steepy Wonder": {
-                "status": "ACTIVE",
-                "last_checkup": "2026-10-31"
             }
         }
     },
