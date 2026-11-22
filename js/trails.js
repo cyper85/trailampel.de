@@ -1,3 +1,5 @@
+import { STATUS_LABELS, STATUS_ICONS, RIDEABLE_STATES, format_checkup } from './status.js';
+
 function readTextFile(file, callback) {
     var rawFile = new XMLHttpRequest();
     rawFile.overrideMimeType("application/json");
@@ -10,21 +12,10 @@ function readTextFile(file, callback) {
     rawFile.send(null);
 }
 
-function get_month(checkup_string) {
-    const regex = /^[0-9]{4}-([0-9]{2})(-[0-9]{2})?$/;
-    const found = checkup_string.match(regex)
-    const months = ['', 'Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember']
-    return months[parseInt(found[1])]
-}
-function get_year(checkup_string) {
-    const regex = /^([0-9]{4})(-[0-9]{2}){1,2}$/;
-    const found = checkup_string.match(regex)
-    return found[1]
-}
 function last_checkup(checkup_string) {
     const span = document.createElement("span");
     span.classList.add('last_checkup');
-    span.innerHTML = '(Letzter Check: ' + get_month(checkup_string) + ' ' + get_year(checkup_string) + ')';
+    span.textContent = '(Letzter Check: ' + format_checkup(checkup_string) + ')';
     return span.outerHTML;
 }
 
@@ -45,8 +36,6 @@ legend.open = localStorage.getItem('legend-open') === '1';
 legend.addEventListener('toggle', function() {
     localStorage.setItem('legend-open', legend.open ? '1' : '0');
 });
-
-const RIDEABLE_STATES = ["ACTIVE", "WARNING"];
 
 // Liefert nur die fahrbaren Trails; Städte und Zonen ohne fahrbare Trails entfallen
 function filter_rideable(data) {
@@ -79,26 +68,6 @@ readTextFile("trails.json", function(text){
     });
     render_table(filter.checked ? filter_rideable(all_trails) : all_trails);
 });
-
-// Klartext zum Status, damit er nicht nur über die Farbe erkennbar ist
-const STATUS_LABELS = {
-    "ACTIVE": "Fahrbar",
-    "WARNING": "Eingeschränkt fahrbar",
-    "CLOSED": "Gesperrt",
-    "INACTIVE": "Nicht aktiv",
-    "DESTROYED": "Zerstört",
-    "NOT READY": "Noch nicht fertig"
-};
-
-// Icon je Status, damit er auch ohne Farbwahrnehmung unterscheidbar ist
-const STATUS_ICONS = {
-    "ACTIVE": "✔",
-    "WARNING": "⚠",
-    "CLOSED": "\u{1F6B3}",
-    "INACTIVE": "\u{1F4A4}",
-    "DESTROYED": "☠",
-    "NOT READY": "\u{1F6A7}"
-};
 
 // Erzeugt eine Zelle mit expliziter ARIA-Rolle: Auf dem Handy wird die Tabelle per CSS
 // zu Blöcken umgebaut, wodurch manche Browser die Tabellensemantik verwerfen

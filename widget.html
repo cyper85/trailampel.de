@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>Trailampel-Widget – Beispiele</title>
+    <style>
+        body { font-family: system-ui, sans-serif; max-width: 40rem; margin: 2rem auto; padding: 0 1rem; color: #222; background: #fff; }
+        h2 { margin-top: 2.5rem; font-size: 1.1rem; }
+        code { background: #f2f2f2; padding: .1em .3em; }
+    </style>
+</head>
+<body>
+<h1>Trailampel-Widget</h1>
+<p>Beispiele zum Testen des Widgets. Anleitung siehe README.</p>
+
+<h2>Eine Zone: <code>data-city="Ilmenau" data-zone="Trailpark Lindenberg"</code></h2>
+<div class="trailampel-widget" data-city="Ilmenau" data-zone="Trailpark Lindenberg">
+    <a href="https://trailampel.de/">Trailstatus auf trailampel.de</a>
+</div>
+
+<h2>Einzelner Trail: <code>data-trail="Flow Trail"</code></h2>
+<div class="trailampel-widget" data-city="Ilmenau" data-zone="Trailpark Lindenberg" data-trail="Flow Trail">
+    <a href="https://trailampel.de/">Trailstatus auf trailampel.de</a>
+</div>
+
+<h2>Einzelner Trail mit Link: <code>data-trail="ILRC Linduro" data-link="true"</code></h2>
+<div class="trailampel-widget" data-city="Ilmenau" data-zone="Trailpark Lindenberg" data-trail="ILRC Linduro" data-link="true">
+    <a href="https://trailampel.de/">Trailstatus auf trailampel.de</a>
+</div>
+
+<h2>Eine Stadt: <code>data-city="Ilmenau"</code></h2>
+<div class="trailampel-widget" data-city="Ilmenau">
+    <a href="https://trailampel.de/">Trailstatus auf trailampel.de</a>
+</div>
+
+<h2>Kein Treffer: <code>data-zone="Gibt es nicht"</code></h2>
+<div class="trailampel-widget" data-zone="Gibt es nicht">
+    <a href="https://trailampel.de/">Trailstatus auf trailampel.de</a>
+</div>
+
+<script type="module" src="js/widget.js"></script>
+</body>
+</html>
