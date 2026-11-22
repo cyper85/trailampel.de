@@ -1,4 +1,4 @@
-import { STATUS_LABELS, STATUS_ICONS, RIDEABLE_STATES, format_checkup } from './status.js';
+import { STATUS_LABELS, STATUS_ICONS, RIDEABLE_STATES, format_checkup, create_status_icon } from './status.js';
 
 function readTextFile(file, callback) {
     var rawFile = new XMLHttpRequest();
@@ -32,6 +32,10 @@ document.querySelectorAll('.email').forEach(reveal_email);
 
 // Legende merkt sich, ob sie aufgeklappt war
 const legend = document.querySelector('#legend');
+// Symbole der Legende kommen aus status.js, damit sie nur an einer Stelle gepflegt werden
+legend.querySelectorAll('[data-status]').forEach(function(swatch) {
+    swatch.replaceChildren(create_status_icon(swatch.dataset.status));
+});
 legend.open = localStorage.getItem('legend-open') === '1';
 legend.addEventListener('toggle', function() {
     localStorage.setItem('legend-open', legend.open ? '1' : '0');
@@ -142,7 +146,7 @@ function render_table(data) {
                     const icon = document.createElement("span");
                     icon.classList.add("status-icon");
                     icon.setAttribute("aria-hidden", "true");
-                    icon.textContent = STATUS_ICONS[status];
+                    icon.appendChild(create_status_icon(status));
                     trail_td.appendChild(icon);
                 }
                 if ('alt_name' in data[city][zone][trail]) {

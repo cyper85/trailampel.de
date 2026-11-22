@@ -58,6 +58,13 @@ span.status-icon {
   min-width: 1.5em;
 }
 
+// SVG-Statussymbol (aus js/status.js), in Tabelle und Legende
+svg.status-svg {
+  width: 1.15em;
+  height: 1.15em;
+  vertical-align: -0.2em;
+}
+
 span.last_checkup {
   font-size: 80%;
   margin-left: 10px;
@@ -199,6 +206,8 @@ details.legend {
   height: 1.5rem;
   border-radius: 0.25rem;
   line-height: 1;
+  // Symbole übernehmen die Schriftfarbe: weiß wie in der Tabelle (gelb per .text-black schwarz)
+  color: #fff;
 }
 
 .legend-example.last_checkup {

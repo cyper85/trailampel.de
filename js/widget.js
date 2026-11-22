@@ -4,7 +4,7 @@
 // alle Container mit der Klasse "trailampel-widget". Als Modul eingebunden
 // führt der Browser es auch bei mehrfacher Einbindung nur einmal aus.
 
-import { STATUS_LABELS, STATUS_ICONS, format_checkup } from './status.js';
+import { STATUS_LABELS, format_checkup, create_status_icon } from './status.js';
 
 const SOURCE_URL = new URL('../trails.json', import.meta.url);
 const HOME_URL = new URL('../', import.meta.url);
@@ -15,6 +15,7 @@ const CSS = `
 .trailampel-list{list-style:none;margin:0;padding:0}
 .trailampel-trail{display:flex;gap:.6em;align-items:flex-start;padding:.4em 0;border-bottom:1px solid rgba(128,128,128,.25)}
 .trailampel-icon{flex:none;display:inline-flex;align-items:center;justify-content:center;width:1.6em;height:1.6em;border-radius:.3em;font-size:.85em;line-height:1;color:#fff;background:var(--trailampel-closed)}
+.trailampel-icon svg{width:1.3em;height:1.3em}
 .trailampel-ok .trailampel-icon{background:var(--trailampel-ok)}
 .trailampel-warn .trailampel-icon{color:#000;background:var(--trailampel-warn)}
 .trailampel-name{font-weight:bold}
@@ -58,8 +59,9 @@ function element(tag, className, text) {
 
 function icon(status) {
     // Nur zur Optik, der Status steht zusätzlich als Text daneben
-    const span = element('span', 'trailampel-icon', STATUS_ICONS[status] ?? '?');
+    const span = element('span', 'trailampel-icon');
     span.setAttribute('aria-hidden', 'true');
+    span.append(create_status_icon(status));
     return span;
 }
 

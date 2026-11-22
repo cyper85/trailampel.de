@@ -33,12 +33,12 @@
 <details class="collapsible legend" id="legend">
     <summary>Legende</summary>
     <ul class="legend-list">
-        <li><span class="legend-swatch bg-success" aria-hidden="true">&#10004;</span> Fahrbar</li>
-        <li><span class="legend-swatch bg-warning text-black" aria-hidden="true">&#9888;</span> Eingeschränkt fahrbar – Hinweis im Status beachten</li>
-        <li><span class="legend-swatch bg-danger" aria-hidden="true">&#128691;</span> Gesperrt</li>
-        <li><span class="legend-swatch bg-danger" aria-hidden="true">&#128164;</span> Nicht aktiv</li>
-        <li><span class="legend-swatch bg-danger" aria-hidden="true">&#9760;</span> Zerstört</li>
-        <li><span class="legend-swatch bg-danger" aria-hidden="true">&#128679;</span> Noch nicht fertig</li>
+        <li><span class="legend-swatch bg-success" data-status="ACTIVE" aria-hidden="true"></span> Fahrbar</li>
+        <li><span class="legend-swatch bg-warning text-black" data-status="WARNING" aria-hidden="true"></span> Eingeschränkt fahrbar – Hinweis im Status beachten</li>
+        <li><span class="legend-swatch bg-danger" data-status="CLOSED" aria-hidden="true"></span> Gesperrt</li>
+        <li><span class="legend-swatch bg-danger" data-status="INACTIVE" aria-hidden="true"></span> Nicht aktiv</li>
+        <li><span class="legend-swatch bg-danger" data-status="DESTROYED" aria-hidden="true"></span> Zerstört</li>
+        <li><span class="legend-swatch bg-danger" data-status="NOT READY" aria-hidden="true"></span> Noch nicht fertig</li>
         <li><span class="legend-swatch btn btn-primary btn-sm" aria-hidden="true">&#9998;</span> Status des Trails melden bzw. bearbeiten</li>
         <li><span class="legend-example last_checkup">(Letzter Check: Monat Jahr)</span> Wann der Trail zuletzt geprüft wurde</li>
     </ul>
